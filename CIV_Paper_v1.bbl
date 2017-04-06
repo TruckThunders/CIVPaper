@@ -1,0 +1,16 @@
+\begin{thebibliography}{3}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Haardt} \& {Madau}(2012)}]{Haardt2012}
+{Haardt}, F., \& {Madau}, P. 2012, \apj, 746, 125
+
+\bibitem[{{O'Meara} {et~al.}(2015){O'Meara}, {Lehner}, {Howk}, {Prochaska},
+  {Fox}, {Swain}, {Gelino}, {Berriman}, \& {Tran}}]{OMeara2015}
+{O'Meara}, J.~M., {Lehner}, N., {Howk}, J.~C., {et~al.} 2015, \aj, 150, 111
+
+\bibitem[{{Quiret} {et~al.}(2016){Quiret}, {P{\'e}roux}, {Zafar}, {Kulkarni},
+  {Jenkins}, {Milliard}, {Rahmani}, {Popping}, {Rao}, {Turnshek}, \&
+  {Monier}}]{Quiret2016}
+{Quiret}, S., {P{\'e}roux}, C., {Zafar}, T., {et~al.} 2016, \mnras
+
+\end{thebibliography}

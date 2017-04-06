@@ -1,0 +1,12 @@
+1283 = +h++  thundershock/thunderbolt
+
+1210 = ++ad++   thundershock/thunder
+
+1201 = ++h++    thundershock/thunderbolt
+
+1100 = +a++    thundershock/thunderbolt
+
+
+700 = -a++  bullet punch / ice punch
+
+600 = -h++  rock smash / thunder punch
