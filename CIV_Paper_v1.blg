@@ -4,47 +4,62 @@ The top-level auxiliary file: CIV_Paper_v1.aux
 The style file: apj.bst
 Database file #1: CIV_Paper_v1Notes.bib
 Database file #2: bibliography.bib
+Warning--entry type for "MurphyPOPLER" isn't style-file defined
+--line 1431 of file bibliography.bib
+Warning--I didn't find a database entry for "Rauch2001"
+Warning--I didn't find a database entry for "Steidel1990"
+Warning--I didn't find a database entry for "Sargent1998"
+Warning--I didn't find a database entry for "Misawa2002"
+Warning--I didn't find a database entry for "Simcoe2004"
+Warning--I didn't find a database entry for "Songaila2005"
+Warning--I didn't find a database entry for "Songaila2006"
+Warning--I didn't find a database entry for "Ryan-Weber2006"
+Warning--I didn't find a database entry for "Fox2007"
+Warning--I didn't find a database entry for "Cooksey2010"
+Warning--I didn't find a database entry for "Simcoe2011"
+Warning--I didn't find a database entry for "Shull2014"
+Warning--I didn't find a database entry for "Burchett2015"
 Warning--I didn't find a database entry for "Mathes2016a"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 3 entries,
+You've used 14 entries,
             3010 wiz_defined-function locations,
-            678 strings with 5431 characters,
-and the built_in function-call counts, 1431 in all, are:
-= -- 109
-> -- 116
-< -- 1
-+ -- 37
-- -- 41
-* -- 129
-:= -- 285
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 16
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 56
-empty$ -- 77
-format.name$ -- 47
-if$ -- 273
+            771 strings with 7801 characters,
+and the built_in function-call counts, 6497 in all, are:
+= -- 557
+> -- 470
+< -- 5
++ -- 158
+- -- 174
+* -- 547
+:= -- 1243
+add.period$ -- 14
+call.type$ -- 14
+change.case$ -- 99
+chr.to.int$ -- 14
+cite$ -- 14
+duplicate$ -- 259
+empty$ -- 362
+format.name$ -- 190
+if$ -- 1266
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 12
-pop$ -- 18
+missing$ -- 13
+newline$ -- 46
+num.names$ -- 56
+pop$ -- 105
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 98
 quote$ -- 0
-skip$ -- 46
+skip$ -- 209
 stack$ -- 0
-substring$ -- 53
+substring$ -- 263
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 27
+type$ -- 126
 warning$ -- 0
-while$ -- 9
+while$ -- 51
 width$ -- 0
-write$ -- 32
-(There was 1 warning)
+write$ -- 141
+(There were 15 warnings)

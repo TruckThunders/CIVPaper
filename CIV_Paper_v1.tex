@@ -66,7 +66,7 @@ In the following paper in this series, \cite{Songaila2006} attempted to identify
 
 \cite{Simcoe2011} measured the intergalactic {\CIV} mass density at $4.3 < z < 6.3$ using the Magellan Folded-Port Infrared Echellette (FIRE) spectrograph. They confirmed the downturn in $\Omega_{\CIV}$ at $z > 4$. They postulated that, due to the short physical timescaled at these redshifts, this downturn may be driven primarily by ionization conditions. However, they cautioned that low number statistics still pose problems due to the limited number of sightlines to high redshift quasars.
 
-\cite{Cooksey2013} used the Sloan Digital Sky Survey (SDSS) Data-Release 7 (DR7) to survey over 16,000 {\CIV} systems with $1.46 < z < 4.55$ and rest frame equivalent widths ($W_r^{\lambda1548}$) greater than $0.3$~{\AA}. They found that the equivalent width frequency distribution ($f(W_r)$) was well-modelled by an exponential, with little evolution in its shape. In addition, they found $dN\,/dX$ increased smoothly with decreasing redshift from $z = 4.55$ to $z = 1.96$ before plateauing at redshifts below 1.96. Their results suggest a monotonic increase in the amount of {\CIV} enriched gas outside galaxies over the history of the universe.
+\cite{Cooksey2013} used the Sloan Digital Sky Survey (SDSS) Data-Release 7 (DR7) to survey over 16,000 {\CIV} systems with $1.46 < z < 4.55$ and rest frame equivalent widths ($W_r^{\lambda1548}$) greater than $0.3$~{\AA}. They found that the equivalent width frequency distribution ($f(W_r)$) was well-modeled by an exponential, with little evolution in its shape. In addition, they found $dN\,/dX$ increased smoothly with decreasing redshift from $z = 4.55$ to $z = 1.96$ before plateauing at redshifts below 1.96. Their results suggest a monotonic increase in the amount of {\CIV} enriched gas outside galaxies over the history of the universe.
 
 \cite{Shull2014} used {\it HST}/COS spectra of background quasars to measure elemental abundances in the low redshift intergalactic medium. They found that {\CIV} has increased in abundance by a factor of 10 from $z \sim 5$ to present.
 
@@ -78,16 +78,49 @@ We begin by explaining the methods of acquiring and analyzing the quasar spectra
 
 %============== SAMPLE DESCRIPTION, DATA, ANALYSIS =======================
 
+% Section 2
 \section{Data and Analysis}
 \label{sec:data}
 
-\subsection{Sample and Analysis}
+% Section 2.1
+\subsection{Quasar Spectra Sample}
+\label{sec:sample}
 
-The Vulture survey makes use of archival VLT/UVES and KECK/HIRES quasar spectra compiled by the UVES Squad group, led by Michael T. Murphy, and the KODIAQ collaboration, described in \cite{OMeara2015}. The spectra range in signal-to-noise from $4$ to $288$, quasar emission redshifts span $0.014 < z < 5.292$, and wavelength coverage for each spectrum spans either $3000 - 6600$~{\AA} or $3000 - 10,000$~{\AA}, depending upon whether the red arm of each spectrograph was used.
+We have assembled a sample of {\bf MANY} archival quasar spectra, representing {\bf LESS MANY} unique sightlines, observed with the VLT/UVES and Keck/HIRES spectrographs. The data originate from three archival data mining efforts - the UVES SQUAD collaboration (432 spectra) led by Michael Murphy, the KODIAQ Survey (170 spectra) led by John O'Meara \citep{OMeara2015}, and the work of~\cite{EvansThesis} which uses observations both from VLT/UVES and Keck/HIRES. The spectra range in signal-to-noise ratio $(S\,/N)$ from $4$ to $288$ per $1.3 - 2.5~\mathrm{\kms}$ pixel, with the pixel size dependent upon the resolution of the spectrum. The mean $S\,/N$ for the sample is $38$ per pixel. Quasar emission redshifts span $0.014 < z < 5.292$. Wavelength coverage for each spectrum varies based upon the settings used for each spectrograph. VLT/UVES has 3 CCD chips available, offering large wavelength coverage from $\sim 3000$ to $\sim10\,000$~{\AA}. However, wavelength coverage available for each quasar spectum varies based upon the selected cross-disperser settings. The exposures used from Keck/HIRES KODIAQ sample were taken from 2004 to present, when a 3 chip CCD mosiac was installed, also allowing wavelength coverage from  $\sim 3000$ to $\sim10\,000$~{\AA}. Again, though, individual quasar observations vary in wavelength coverage based upon cross-disperser angle. The data from~\cite{EvansThesis} include SOMETHING FROM VLT and older Keck/HIRES observations, prior to the installation of the 3 chip mosiac, and reduced according to the prescriptions found in {\bf CITE SOMETHING OF CHRIS'S HERE}. We detect {\bf MANY} ${\CIV}$ absorbing systems from {\bf redshift range} to a detection limit of $W_r^{\lambda1548} \simeq 0.01$~{\AA} for regions with $S\,/N > 40$ per pixel.
 
-The data are continuum normalized, inspected, and then fed into automated line detection software to find all {\CIVdblt} systems through a matched filtering technique. Equivalent width detection limits are calculated through a self-monitoring technique which evaluates the detection sensitivity for each spectrum as a function of wavelength. Then, the detections are visually verified, and any absorption systems within $\pm 500~{\kms}$ are combined into one system for analysis. These processes are described in detail in \cite{Mathes2016a}.
+% ============== Continuum Fitting and Line Detection ======================================
 
-Within the absorbing regions, we calculate equivalent widths ($W_r$), velocity widths ($\Delta v$), kinematic spreads ($\omega_v$), and apparent optical depth (AOD) column densities ($log(N)$).
+% Section 2.2
+\subsection{Data Reduction and Line Detection}
+\label{sec:detection}
+
+The KODIAQ data sample is reduced and fully continuum fit, delivered as normalized spectra according to the prescriptions of \cite{OMeara2015}. To summarize, observing runs are grouped together and uniformly reduced using HIRedux\footnote{http://www.ucolick.org/~xavier/HIRedux/} as part of the XIDL\footnote{http://www.ucolick.org/~xavier/IDL/index.html} suite of astronomical routines in IDL. Continuum fits are applied one order at a time using Legendre polynomials by a single member of the KODIAQ team, John O'Meara, to minimize bias and variation.
+
+The UVES SQUAD sample also comes reduced and continuum fit according to the prescriptions of~\cite{King2012,Bagdonaite2014,Murphy2016,Murphyprep}. Reduction was carried out using the ESO Common Pipeline Language data-reduction software.\footnote{http://www.eso.org/observing/dfo/quality/UVES/pipeline/pipe\_reduc.html} The continuum is fit automatically with a low order polynomial in small sections using UVES\_popler, an ESO/VLT UVES post-pipeline echelle reduction program written by Michael T. Murphy~\citep{MurphyPOPLER}. This fit can incorrectly estimate the continuum around narrow emission regions and broad absorption features. Using UVES\_popler, we add a higher order continuum fit to such regions of each spectrum, always preserving the continuity of the continuum with non-absorbing regions.
+
+The~\cite{EvansThesis} sample combines data from both VLT/UVES and Keck/HIRES observations. As it is used in this paper, it also comes reduced and continuum fit according to the methods found in {\bf DO I JUST CITE THE PHD HERE AGAIN?}.
+
+The next step involves detecting all ${\CIV}$ absorption features. We first limit the search range to regions of the spectrum redward of the {\Lya} emission, as {\Lya} forest contamination would render automatic detection of weaker metal lines nearly impossible. We also do not search $5000$~{\kms} blueward of the quasar emission redshift in order to avoid absorbers associated with the quasar itself. Finally, we exclude regions of strong telluric absorption bands, specifically from $6277 - 6318$~{\AA}, $6868 - 6932$~{\AA}, $7594 - 7700$~{\AA}, and $9300 - 9630$~{\AA}, because we found that the molecular line separations and ratios can lead to numerous false positives when searching for ${\CIV}$ doublets.
+
+To find all intervening {\CIVdblt} absorbers, we employ a techinque outlined in \cite{Zhu2013}, in which we perform a matched filter search for absorption candidates detected above a certain S\,/N threshold. The filter is a top hat function centered at the wavelength of the desired redshifted absorption line. Its width is selected to match the resolution of the spectrum, which is a function of the slit width used during the exposure. A large variety of slit-widths were used to achieve different resolutions for varying science drivers, but, characteristically for a 1.0 arcsec slit, $R \sim 40,000$ for VLT/UVES and $R \sim 45,000$ for Keck/HIRES. We convolve the filter with the normalized spectrum to generate a normalized power spectrum in redshift space, with absorption features having positive power.
+
+The error spectrum in both instruments is complex, irregular, and has frequent single-pixel spikes which makes uniform normalization impossible. Therefore, we cannot convolve the filter with the error spectrum to derive normalized noise estimates, as is often done in matched filter analysis. Instead, we examine the noise in the derived power spectrum.
+
+To derive the noise, we first divide the power spectrum into smaller chunks which correspond to roughly 3000 pixels in the observed spectrum. We then sigma-clip these chunks to remove absorption features, leaving only the continuum power spectrum. Next, we calculate the standard deviation of this continuum. Finally, we use the standard deviation as the noise to calculate the $S\,/N$ of the absorption features in the power spectrum as the ratio of the normalized power ($S$) to the normalized noise ($N$).
+
+A flagged absorption feature has $S\,/N > 5$. A confirmed doublet detetection for {\CIVdblt} requires detection of $S\,/N^{\lambda1548} > 5$ and $S\,/N^{\lambda1551} > 3$. In addition, our automated routines remove detections with non-physical doublet ratios in unsaturated regions; specifically, we exclude cases where $W_r^{\lambda1551} > W_r^{\lambda1548}$, or $W_r^{\lambda1551} < \left(0.3 \times W_r^{\lambda1548}\right)$. The latter constraint is conservative for unsaturated ${\CIV}$ absorbers, as $W_r^{\lambda1551}$ is rarely observed less than $0.5 \times W_r^{\lambda1548}$. We relax this constraint in saturated features. This system could potentially exclude detections where either the ${\CIV1548}$ or ${\CIV1551}$ line is blended with another transition but does not saturate; however, confirmation of these cases requires extra verification from separate absorbing features, such as ${\SiIV}$, which are weaker and not always covered in the spectrum.
+
+All absorption features are visually verified upon completion of the detection algorithm. Multiple feature detections within $\pm 500$~{\kms} of each other are grouped together to generate absorption systems, designated as a single absorber, to be analyzed. Once absorption systems are identified, we calculate the optical depth-weighted median absorption redshift to define the center of the entire absorption system. The formal derivation of this redshift is described in the appendix of~\cite{Churchill2001}.
+
+We also derive an equivalent width detection limit across the spectrum. To do so, we insert modeled Gaussian absorption features across the spectrum and assume a full-width at half maximum (FWHM) defined by the resolution of the instrument to represent unresolved lines. We then solve for the height of the Gaussian, defined as the value at the curve's peak, required to detect the unresolved line with our matched filtering technique at a $S\,/N = 5$. Finally, we integrate to find the equivalent width, and take that value as the minimum detectable equivalent width at a given wavelength. The detection algorithm is therefore self-monitoring. This full equivalent width detection limit spectrum also allows us to accurately characterize the completeness of our sample, along with the full redshift path length searched.
+
+% ============== Measuring Absorption Properties ======================================
+
+% Section 2.3
+\subsection{Measuring Absorption Properties}
+\label{sec:measuring}
+
+For each absorption system, we automatically define the wavelength bounds of an absorbing region by finding where the flux recovers to within $1\sigma$ of the continuum, with $\sigma$ defined by the error spectrum, for three pixels on either side of the absorption trough. Within these regions we calculate rest-frame equivalent widths ($W_r$), velocity widths ($\Delta v$), optical depth-weighted kinematic spreads ($\omega_v$), and apparent optical depth (AOD) column densities ($\log(N)$). The functional forms of these parameters are detailed in the appendix of~\cite{Churchill2001}, equations$~\mathrm{A3 - A7}$. In the case of saturated lines, where the absorption profile reaches zero flux, the AOD column density calculation represents only a lower limit. In such cases, we adopt the column density value derived from the {\CIV1551} profile.
 
 %============= RESULTS: Basic Absorption Properties =========================
 
@@ -105,7 +138,7 @@ Within the absorbing regions, we calculate equivalent widths ($W_r$), velocity w
 \label{fig:scatterplots}
 \end{figure*}
 
-Figure~\ref{fig:scatterplots} shows the relationships between the measured absorption parameters, characterizing the distribution of absorption properties for our survey. We cover a large parameter space, examining all types of observable absorption systems from $ < W_r^{\lambda1548} < 5$~{\AA}
+Figure~\ref{fig:scatterplots} shows the relationships between the measured absorption parameters, characterizing the distribution of absorption properties for our survey. We cover a large parameter space, examining all types of observable absorption systems from $SOMETHING < W_r^{\lambda1548} < 5$~{\AA}
 
 \subsection{Sample Completeness and Survey Path Coverage}
 
@@ -154,14 +187,14 @@ In Figures~\ref{fig:nsigma} and ~\ref{fig:epsilon}, we show the evolution of the
 \begin{figure}[bth]
 \epsscale{1.27}
 \plotone{PLOTS/hist_nsigma_CIV_dndx.pdf}
-\caption{Absorber space density times cross section, as derived from the funtional fit $dN\,/dX = n\sigma (1 + z)^{\epsilon}$ as a function of cumulative equivalent width cut, where $W_r^{\lambda2796} > x$~{\AA}. As ${\CIV}$ equivalent width increases, either the space density of absorbing cloud structures decreses, the absorbing cross-section decreases, or both parameters decrease.}
+\caption{Absorber space density times cross section, as derived from the funtional fit $dN\,/dX = n\sigma (1 + z)^{\epsilon}$ as a function of cumulative equivalent width cut, where $W_r^{\lambda1548} > x$~{\AA}. As ${\CIV}$ equivalent width increases, either the space density of absorbing cloud structures decreses, the absorbing cross-section decreases, or both parameters decrease.}
 \label{fig:nsigma}
 \end{figure}
 
 \begin{figure}[bth]
 \epsscale{1.27}
 \plotone{PLOTS/hist_epsilon_CIV_dndx.pdf}
-\caption{Redshift power dependence of the functional fit $dN\,/dX = n\sigma (1 + z)^{\epsilon}$ as a function of cumulative equivalent width cut, where $W_r^{\lambda2796} > x$~{\AA}. Weak ${\CIV}$ absorbers are more abundant at low redshift, leading to a negative coefficient $\epsilon$. Moderate equivalent width ${\CIV}$ absorbers do not evolve, showing $\epsilon \simeq 0$. Strong ${\CIV}$ absorbers evolve away at low redshift, showing a large positive $\epsilon$ increasing towards $z = 2$.}
+\caption{Redshift power dependence of the functional fit $dN\,/dX = n\sigma (1 + z)^{\epsilon}$ as a function of cumulative equivalent width cut, where $W_r^{\lambda1548} > x$~{\AA}. Weak ${\CIV}$ absorbers are more abundant at low redshift, leading to a negative coefficient $\epsilon$. Moderate equivalent width ${\CIV}$ absorbers do not evolve, showing $\epsilon \simeq 0$. Strong ${\CIV}$ absorbers evolve away at low redshift, showing a large positive $\epsilon$ increasing towards $z = 2$.}
 \label{fig:epsilon}
 \end{figure}
 

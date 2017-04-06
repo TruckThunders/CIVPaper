@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 MAR 2017 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 APR 2017 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,7 +529,11 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 13.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 13.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 13.
 
-(./CIV_Paper_v1.aux)
+(./CIV_Paper_v1.aux
+
+LaTeX Warning: Label `sec:sample' multiply defined.
+
+)
 \openout1 = `CIV_Paper_v1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -546,8 +550,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
-
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count168
 \scratchdimen=\dimen152
@@ -595,17 +598,17 @@ Class revtex4-1 Info: Reinvoke \linenumbers on input line 13.
 \openout3 = `CIV_Paper_v1Notes.bib'.
 
 Class revtex4-1 Info: Overriding \@LN@LLerror on input line 13.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 32.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 24.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -620,16 +623,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
  []
 
 
-Package natbib Warning: Citation `Churchill1999' on page 2 undefined on input l
-ine 47.
-
-
 Package natbib Warning: Citation `Rauch2001' on page 2 undefined on input line 
 49.
-
-
-Package natbib Warning: Citation `Chen2001' on page 2 undefined on input line 5
-1.
 
 
 Package natbib Warning: Citation `Steidel1990' on page 2 undefined on input lin
@@ -673,16 +668,8 @@ Package natbib Warning: Citation `Simcoe2011' on page 3 undefined on input line
  67.
 
 
-Package natbib Warning: Citation `Cooksey2013' on page 3 undefined on input lin
-e 69.
-
-
 Package natbib Warning: Citation `Shull2014' on page 3 undefined on input line 
 71.
-
-
-Package natbib Warning: Citation `Bordoloi2014' on page 3 undefined on input li
-ne 73.
 
 
 Package natbib Warning: Citation `Burchett2015' on page 3 undefined on input li
@@ -690,115 +677,107 @@ ne 75.
 
 [3]
 
-Package natbib Warning: Citation `Mathes2016a' on page 4 undefined on input lin
-e 88.
+Package natbib Warning: Citation `EvansThesis' on page 4 undefined on input lin
+e 89.
 
-<PLOTS/all_CIV_params.pdf, id=43, 578.16pt x 433.62pt>
+
+Package natbib Warning: Citation `EvansThesis' on page 4 undefined on input lin
+e 89.
+
+
+Overfull \hbox (11.76059pt too wide) in paragraph at lines 89--90
+\OT1/cmr/m/n/10 sight-lines, ob-served with the VLT/UVES and Keck/HIRES
+ []
+
+
+Overfull \hbox (54.44858pt too wide) in paragraph at lines 99--99
+[][]| [] [][]\OT1/cmr/m/n/8 http://www.eso.org/observing/dfo/quality/UVES/pipel
+ine/pipe[]reduc.html| 
+ []
+
+
+Package natbib Warning: Citation `EvansThesis' on page 4 undefined on input lin
+e 101.
+
+[4] <PLOTS/all_CIV_params.pdf, id=98, 578.16pt x 433.62pt>
 File: PLOTS/all_CIV_params.pdf Graphic file (type pdf)
 
 <use PLOTS/all_CIV_params.pdf>
-Package pdftex.def Info: PLOTS/all_CIV_params.pdf used on input line 103.
+Package pdftex.def Info: PLOTS/all_CIV_params.pdf used on input line 136.
 (pdftex.def)             Requested size: 545.19116pt x 408.91292pt.
 
-Overfull \hbox (32.07373pt too wide) in paragraph at lines 103--104
+Overfull \hbox (32.07373pt too wide) in paragraph at lines 136--137
  [] 
  []
 
-<PLOTS/gwz_CIV_lin.pdf, id=45, 578.16pt x 433.62pt>
+<PLOTS/gwz_CIV_lin.pdf, id=100, 578.16pt x 433.62pt>
 File: PLOTS/gwz_CIV_lin.pdf Graphic file (type pdf)
 
 <use PLOTS/gwz_CIV_lin.pdf>
-Package pdftex.def Info: PLOTS/gwz_CIV_lin.pdf used on input line 114.
-(pdftex.def)             Requested size: 257.41002pt x 193.05623pt.
-
-Overfull \hbox (15.1435pt too wide) in paragraph at lines 114--115
- [] 
- []
-
-<PLOTS/hist_z_CIV_dndz.pdf, id=49, 578.16pt x 433.62pt>
-File: PLOTS/hist_z_CIV_dndz.pdf Graphic file (type pdf)
-
-<use PLOTS/hist_z_CIV_dndz.pdf>
-Package pdftex.def Info: PLOTS/hist_z_CIV_dndz.pdf used on input line 140.
-(pdftex.def)             Requested size: 261.52946pt x 196.14613pt.
-
-Overfull \hbox (19.26294pt too wide) in paragraph at lines 140--141
- [] 
- []
-
-<PLOTS/hist_z_CIV_dndx.pdf, id=50, 578.16pt x 433.62pt>
-File: PLOTS/hist_z_CIV_dndx.pdf Graphic file (type pdf)
-
-<use PLOTS/hist_z_CIV_dndx.pdf>
-Package pdftex.def Info: PLOTS/hist_z_CIV_dndx.pdf used on input line 147.
+Package pdftex.def Info: PLOTS/gwz_CIV_lin.pdf used on input line 147.
 (pdftex.def)             Requested size: 257.41002pt x 193.05623pt.
 
 Overfull \hbox (15.1435pt too wide) in paragraph at lines 147--148
  [] 
  []
 
-<PLOTS/hist_nsigma_CIV_dndx.pdf, id=53, 578.16pt x 433.62pt>
-File: PLOTS/hist_nsigma_CIV_dndx.pdf Graphic file (type pdf)
+[5] <PLOTS/hist_z_CIV_dndz.pdf, id=117, 578.16pt x 433.62pt>
+File: PLOTS/hist_z_CIV_dndz.pdf Graphic file (type pdf)
 
-<use PLOTS/hist_nsigma_CIV_dndx.pdf>
-Package pdftex.def Info: PLOTS/hist_nsigma_CIV_dndx.pdf used on input line 156.
-
+<use PLOTS/hist_z_CIV_dndz.pdf>
+Package pdftex.def Info: PLOTS/hist_z_CIV_dndz.pdf used on input line 173.
 (pdftex.def)             Requested size: 261.52946pt x 196.14613pt.
 
-Overfull \hbox (19.26294pt too wide) in paragraph at lines 156--157
+Overfull \hbox (19.26294pt too wide) in paragraph at lines 173--174
  [] 
  []
 
-<PLOTS/hist_epsilon_CIV_dndx.pdf, id=54, 578.16pt x 433.62pt>
-File: PLOTS/hist_epsilon_CIV_dndx.pdf Graphic file (type pdf)
+<PLOTS/hist_z_CIV_dndx.pdf, id=118, 578.16pt x 433.62pt>
+File: PLOTS/hist_z_CIV_dndx.pdf Graphic file (type pdf)
 
-<use PLOTS/hist_epsilon_CIV_dndx.pdf>
-Package pdftex.def Info: PLOTS/hist_epsilon_CIV_dndx.pdf used on input line 163
-.
-(pdftex.def)             Requested size: 261.52946pt x 196.14613pt.
+<use PLOTS/hist_z_CIV_dndx.pdf>
+Package pdftex.def Info: PLOTS/hist_z_CIV_dndx.pdf used on input line 180.
+(pdftex.def)             Requested size: 257.41002pt x 193.05623pt.
 
-Overfull \hbox (19.26294pt too wide) in paragraph at lines 163--164
+Overfull \hbox (15.1435pt too wide) in paragraph at lines 180--181
  [] 
  []
 
-[4] <PLOTS/hist_ew_CIV_dndz.pdf, id=75, 578.16pt x 433.62pt>
-File: PLOTS/hist_ew_CIV_dndz.pdf Graphic file (type pdf)
+[6 <./PLOTS/all_CIV_params.pdf>]
 
-<use PLOTS/hist_ew_CIV_dndz.pdf>
-Package pdftex.def Info: PLOTS/hist_ew_CIV_dndz.pdf used on input line 177.
-(pdftex.def)             Requested size: 436.15294pt x 327.11313pt.
-
-<PLOTS/hist_ew_CIV_dndx.pdf, id=76, 578.16pt x 433.62pt>
-File: PLOTS/hist_ew_CIV_dndx.pdf Graphic file (type pdf)
-
-<use PLOTS/hist_ew_CIV_dndx.pdf>
-Package pdftex.def Info: PLOTS/hist_ew_CIV_dndx.pdf used on input line 183.
-(pdftex.def)             Requested size: 436.15294pt x 327.11313pt.
-
-<PLOTS/hist_logN_CIV_dndz.pdf, id=78, 578.16pt x 433.62pt>
-File: PLOTS/hist_logN_CIV_dndz.pdf Graphic file (type pdf)
-
-<use PLOTS/hist_logN_CIV_dndz.pdf>
-Package pdftex.def Info: PLOTS/hist_logN_CIV_dndz.pdf used on input line 196.
-(pdftex.def)             Requested size: 436.15294pt x 327.11313pt.
-
-<PLOTS/hist_logN_CIV_dndx.pdf, id=79, 578.16pt x 433.62pt>
-File: PLOTS/hist_logN_CIV_dndx.pdf Graphic file (type pdf)
-
-<use PLOTS/hist_logN_CIV_dndx.pdf>
-Package pdftex.def Info: PLOTS/hist_logN_CIV_dndx.pdf used on input line 202.
-(pdftex.def)             Requested size: 436.15294pt x 327.11313pt.
- [5 <./PLOTS/all_CIV_params.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 210.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 186.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 210.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 186.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[6 <./PLOTS/gwz_CIV_lin.pdf> <./PLOTS/hist_z_CIV_dndz.pdf
+<PLOTS/hist_nsigma_CIV_dndx.pdf, id=163, 578.16pt x 433.62pt>
+File: PLOTS/hist_nsigma_CIV_dndx.pdf Graphic file (type pdf)
+
+<use PLOTS/hist_nsigma_CIV_dndx.pdf>
+Package pdftex.def Info: PLOTS/hist_nsigma_CIV_dndx.pdf used on input line 189.
+
+(pdftex.def)             Requested size: 261.52946pt x 196.14613pt.
+
+Overfull \hbox (19.26294pt too wide) in paragraph at lines 189--190
+ [] 
+ []
+
+<PLOTS/hist_epsilon_CIV_dndx.pdf, id=164, 578.16pt x 433.62pt>
+File: PLOTS/hist_epsilon_CIV_dndx.pdf Graphic file (type pdf)
+
+<use PLOTS/hist_epsilon_CIV_dndx.pdf>
+Package pdftex.def Info: PLOTS/hist_epsilon_CIV_dndx.pdf used on input line 196
+.
+(pdftex.def)             Requested size: 261.52946pt x 196.14613pt.
+
+Overfull \hbox (19.26294pt too wide) in paragraph at lines 196--197
+ [] 
+ []
+
+[7 <./PLOTS/gwz_CIV_lin.pdf> <./PLOTS/hist_z_CIV_dndz.pdf
 
 pdfTeX warning: pdflatex (file ./PLOTS/hist_z_CIV_dndz.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
@@ -812,46 +791,78 @@ pdfTeX warning: pdflatex (file ./PLOTS/hist_nsigma_CIV_dndx.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 227.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 202.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 227.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 202.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<PLOTS/Omega_CIV.pdf, id=253, 578.16pt x 433.62pt>
-File: PLOTS/Omega_CIV.pdf Graphic file (type pdf)
- <use PLOTS/Omega_CIV.pdf>
-Package pdftex.def Info: PLOTS/Omega_CIV.pdf used on input line 236.
+<PLOTS/hist_ew_CIV_dndz.pdf, id=298, 578.16pt x 433.62pt>
+File: PLOTS/hist_ew_CIV_dndz.pdf Graphic file (type pdf)
+
+<use PLOTS/hist_ew_CIV_dndz.pdf>
+Package pdftex.def Info: PLOTS/hist_ew_CIV_dndz.pdf used on input line 210.
 (pdftex.def)             Requested size: 436.15294pt x 327.11313pt.
 
-Overfull \hbox (21.95888pt too wide) in paragraph at lines 256--257
+<PLOTS/hist_ew_CIV_dndx.pdf, id=299, 578.16pt x 433.62pt>
+File: PLOTS/hist_ew_CIV_dndx.pdf Graphic file (type pdf)
+
+<use PLOTS/hist_ew_CIV_dndx.pdf>
+Package pdftex.def Info: PLOTS/hist_ew_CIV_dndx.pdf used on input line 216.
+(pdftex.def)             Requested size: 436.15294pt x 327.11313pt.
+
+<PLOTS/hist_logN_CIV_dndz.pdf, id=301, 578.16pt x 433.62pt>
+File: PLOTS/hist_logN_CIV_dndz.pdf Graphic file (type pdf)
+
+<use PLOTS/hist_logN_CIV_dndz.pdf>
+Package pdftex.def Info: PLOTS/hist_logN_CIV_dndz.pdf used on input line 229.
+(pdftex.def)             Requested size: 436.15294pt x 327.11313pt.
+
+<PLOTS/hist_logN_CIV_dndx.pdf, id=302, 578.16pt x 433.62pt>
+File: PLOTS/hist_logN_CIV_dndx.pdf Graphic file (type pdf)
+
+<use PLOTS/hist_logN_CIV_dndx.pdf>
+Package pdftex.def Info: PLOTS/hist_logN_CIV_dndx.pdf used on input line 235.
+(pdftex.def)             Requested size: 436.15294pt x 327.11313pt.
+
+<PLOTS/Omega_CIV.pdf, id=304, 578.16pt x 433.62pt>
+File: PLOTS/Omega_CIV.pdf Graphic file (type pdf)
+ <use PLOTS/Omega_CIV.pdf>
+Package pdftex.def Info: PLOTS/Omega_CIV.pdf used on input line 269.
+(pdftex.def)             Requested size: 436.15294pt x 327.11313pt.
+
+[8 <./PLOTS/hist_epsilon_CIV_dndx.pdf>]
+Overfull \hbox (21.95888pt too wide) in paragraph at lines 289--290
 []\OT1/cmr/m/n/10 Using archival data from $\OML/cmm/m/it/10 VLT$\OT1/cmr/m/n/1
 0 /UVES and $\OML/cmm/m/it/10 KECK$\OT1/cmr/m/n/10 /HIRES,
  []
 
-(./CIV_Paper_v1.bbl [7 <./PLOTS/hist_epsilon_CIV_dndx.pdf>]) [8 <./PLOTS/hist_e
-w_CIV_dndz.pdf>]
+[9 <./PLOTS/hist_ew_CIV_dndz.pdf>] (./CIV_Paper_v1.bbl) [10 <./PLOTS/hist_ew_CI
+V_dndx.pdf>]
 
 Package natbib Warning: There were undefined citations.
 
-[9 <./PLOTS/hist_ew_CIV_dndx.pdf>] [10 <./PLOTS/hist_logN_CIV_dndz.pdf>]
-[11 <./PLOTS/hist_logN_CIV_dndx.pdf>] [12 <./PLOTS/Omega_CIV.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
+[11 <./PLOTS/hist_logN_CIV_dndz.pdf>] [12 <./PLOTS/hist_logN_CIV_dndx.pdf>]
+[13 <./PLOTS/Omega_CIV.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+ (./CIV_Paper_v1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 302.
 
-(./CIV_Paper_v1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 269.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 10104 strings out of 493089
- 140746 string characters out of 6134842
- 297489 words of memory out of 5000000
- 13404 multiletter control sequences out of 15000+600000
- 14702 words of font info for 58 fonts, out of 8000000 for 9000
+ 10135 strings out of 493089
+ 141205 string characters out of 6134842
+ 294389 words of memory out of 5000000
+ 13417 multiletter control sequences out of 15000+600000
+ 14869 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,37p,1086b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,7n,37p,1819b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -879,12 +890,13 @@ s/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvr8a.pfb>
-Output written on CIV_Paper_v1.pdf (12 pages, 936879 bytes).
+/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb>
+Output written on CIV_Paper_v1.pdf (13 pages, 967366 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 467 compressed objects within 5 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 696 PDF objects out of 1000 (max. 8388607)
+ 530 compressed objects within 6 object streams
+ 65 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,51 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{14}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Bagdonaite} {et~al.}(2014){Bagdonaite}, {Ubachs}, {Murphy}, \&
+  {Whitmore}}]{Bagdonaite2014}
+{Bagdonaite}, J., {Ubachs}, W., {Murphy}, M.~T., \& {Whitmore}, J.~B. 2014,
+  \apj, 782, 10
+
+\bibitem[{{Bordoloi} {et~al.}(2014){Bordoloi}, {Lilly}, {Kacprzak}, \&
+  {Churchill}}]{Bordoloi2014}
+{Bordoloi}, R., {Lilly}, S.~J., {Kacprzak}, G.~G., \& {Churchill}, C.~W. 2014,
+  \apj, 784, 108
+
+\bibitem[{{Chen} {et~al.}(2001){Chen}, {Lanzetta}, {Webb}, \&
+  {Barcons}}]{Chen2001}
+{Chen}, H.-W., {Lanzetta}, K.~M., {Webb}, J.~K., \& {Barcons}, X. 2001, \apj,
+  559, 654
+
+\bibitem[{{Churchill} {et~al.}(1999){Churchill}, {Rigby}, {Charlton}, \&
+  {Vogt}}]{Churchill1999}
+{Churchill}, C.~W., {Rigby}, J.~R., {Charlton}, J.~C., \& {Vogt}, S.~S. 1999,
+  \apjs, 120, 51
+
+\bibitem[{{Churchill} \& {Vogt}(2001)}]{Churchill2001}
+{Churchill}, C.~W., \& {Vogt}, S.~S. 2001, \aj, 122, 679
+
+\bibitem[{{Cooksey} {et~al.}(2013){Cooksey}, {Kao}, {Simcoe}, {O'Meara}, \&
+  {Prochaska}}]{Cooksey2013}
+{Cooksey}, K.~L., {Kao}, M.~M., {Simcoe}, R.~A., {O'Meara}, J.~M., \&
+  {Prochaska}, J.~X. 2013, \apj, 763, 37
 
 \bibitem[{{Haardt} \& {Madau}(2012)}]{Haardt2012}
 {Haardt}, F., \& {Madau}, P. 2012, \apj, 746, 125
+
+\bibitem[{{King} {et~al.}(2012){King}, {Webb}, {Murphy}, {Flambaum},
+  {Carswell}, {Bainbridge}, {Wilczynska}, \& {Koch}}]{King2012}
+{King}, J.~A., {Webb}, J.~K., {Murphy}, M.~T., {et~al.} 2012, \mnras, 422, 3370
+
+\bibitem[{{Murphy}(2016)}]{MurphyPOPLER}
+{Murphy}, M.~T. 2016, {{UVES\_popler}: {POst} {PipeLine} {Echelle} {Reduction}
+  software}, \mbox{doi}:\url{10.5281/zenodo.44765}
+
+\bibitem[{{Murphy}(in prep)}]{Murphyprep}
+---. in prep, \mnras
+
+\bibitem[{{Murphy} {et~al.}(2016){Murphy}, {Malec}, \&
+  {Prochaska}}]{Murphy2016}
+{Murphy}, M.~T., {Malec}, A.~L., \& {Prochaska}, J.~X. 2016, \mnras, 461, 2461
 
 \bibitem[{{O'Meara} {et~al.}(2015){O'Meara}, {Lehner}, {Howk}, {Prochaska},
   {Fox}, {Swain}, {Gelino}, {Berriman}, \& {Tran}}]{OMeara2015}
@@ -12,5 +55,8 @@
   {Jenkins}, {Milliard}, {Rahmani}, {Popping}, {Rao}, {Turnshek}, \&
   {Monier}}]{Quiret2016}
 {Quiret}, S., {P{\'e}roux}, C., {Zafar}, T., {et~al.} 2016, \mnras
+
+\bibitem[{{Zhu} \& {M{\'e}nard}(2013)}]{Zhu2013}
+{Zhu}, G., \& {M{\'e}nard}, B. 2013, \apj, 770, 130
 
 \end{thebibliography}
