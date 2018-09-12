@@ -1,0 +1,974 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 MAY 2017 15:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**CIV_Paper_v2
+(./CIV_Paper_v2.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./aastex61.cls
+Document Class: aastex61 2016/04/16 Version 6.1/AAS markup document class
+Class aastex Info: 
+ 
+ Original \LaTeX2.09 style by Chris Biemesderfer (chris@seagoat.com). 
+ Adapted to \LaTeXe by A. Ogawa (ogawa@teleport.com)
+ emulateapj.cls included, Copyright 2000-2015 Alexey Vikhlinin 
+ Rewrite and update of emulateapj.cls, revised and enhanced with table macros, 
+gridlines, draft watermark,
+ track changes, new `modern' style and much more, by Amy Hendrickson,
+ (amyh@texnology.com, http://www.texnology.com) 
+ 
+  on input line 106.
+\bibbaselineskip=\skip41
+(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/revtex4-1.cls
+Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
+ex4/ for documentation)
+ Copyright (c) 2009 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 308.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
+\eqncolsep=\skip42
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 433.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
+Class revtex4-1 Info: Making \typeout \long on input line 2046.
+ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
+\c@affil=\count81
+\c@collab=\count82
+\absbox=\box27
+ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count83
+\output@latex=\toks14
+\box@size@1=\box28
+\box@size@2=\box29
+\@protection@box=\box30
+\@topmark@saved=\toks15
+\footins@saved=\box31
+\footins@recovered=\box32
+\column@recovered=\box33
+\pagesofar=\box34
+\footsofar=\box35
+\pagegrid@col=\count84
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5578.
+\c@part=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\abovecaptionskip=\skip43
+\belowcaptionskip=\skip44
+\c@figure=\count91
+\fbox@1=\box36
+\c@table=\count92
+\fbox@2=\box37
+\c@video=\count93
+\fbox@4=\box38
+\@bibdataout=\write3
+\widetext@top=\box39
+\widetext@bot=\box40
+Class revtex4-1 Info: Selecting society aps on input line 7542.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/aps4-1.rtx
+File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
+mentation)
+Class revtex4-1 Info: RevTeX society APS selected on input line 31.
+)
+Class revtex4-1 Info: Selecting journal pra on input line 7544.
+Class revtex4-1 Info: APS journal PRA selected on input line 7545.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+documentation)
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./natbib.sty
+Package: natbib 2003/06/06 7.1 (PWD)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 518.
+\c@NAT@ctr=\count94
+)
+
+LaTeX Warning: You have requested, on input line 7549, version
+               `2009/11/07 8.31a (PWD, AO)' of package natbib,
+               but only version
+               `2003/06/06 7.1 (PWD)'
+               is available.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
+or documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Info: Redefining \frak on input line 111.
+LaTeX Info: Redefining \Bbb on input line 113.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen104
+\epsfframethickness=\dimen105
+\epsfrsize=\dimen106
+\epsftmp=\dimen107
+\epsftsize=\dimen108
+\epsfxsize=\dimen109
+\epsfysize=\dimen110
+\pspoints=\dimen111
+)
+\fncount=\count96
+\endfncount=\count97
+\c@front@matter@foot@note=\count98
+\keys@width=\skip47
+\c@lastfootnote=\count99
+\c@remember@figure@num=\count100
+\c@remember@table@num=\count101
+\bibskip=\skip48
+\bibindent=\dimen112
+\plot@width=\skip49
+\c@table@save=\count102
+\@abovenoteskip=\dimen113
+\table@note@skip=\skip50
+\deluxe@table@width=\skip51
+\@d@t@a=\skip52
+\c@deluxe@table@num=\count103
+\LTcapwidth=\dimen114
+\abovedeluxetableskip=\skip53
+\belowdeluxetableskip=\skip54
+\lastrowheight=\dimen115
+\DT@p@ftn=\toks18
+\pt@column=\count104
+\pt@ncol=\count105
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count106
+\LTcapwidth=\dimen116
+\LT@head=\box41
+\LT@firsthead=\box42
+\LT@foot=\box43
+\LT@lastfoot=\box44
+\LT@cols=\count107
+\LT@rows=\count108
+\c@LT@tables=\count109
+\c@LT@chunks=\count110
+\LT@p@ftn=\toks19
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen117
+\Hy@linkcounter=\count111
+\Hy@pagecounter=\count112
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count113
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `false' on input line 4319.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 4319.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Option `final' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks OFF on input line 4694.
+LaTeX Info: Redefining \href on input line 4952.
+\c@Hy@tempcnt=\count114
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen118
+\Fld@menulength=\count115
+\Field@Width=\dimen119
+\Fld@charsize=\dimen120
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count116
+\c@Item=\count117
+\c@Hfootnote=\count118
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count119
+\c@bookmark@seq@number=\count120
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip59
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen121
+\extrarowheight=\dimen122
+\NC@list=\toks20
+\extratabsurround=\skip60
+\backup@length=\skip61
+)
+\colcount=\count121
+\firstcolcount=\count122
+\secondcolcount=\count123
+\thirdcolcount=\count124
+\columncount=\count125
+\howmanyDs=\count126
+\firsthowmanyDs=\count127
+\secondhowmanyDs=\count128
+\PartsOfTable=\count129
+\columnoneandtwo=\count130
+\colnumsused=\count131
+\loopnum=\count132
+\totalcolumncount=\count133
+\totalcolumns=\count134
+\firsttablebox=\box45
+\secondtablebox=\box46
+\thirdtablebox=\box47
+\longtablebox=\box48
+\splitbox=\box49
+\movetabledown=\dimen123
+\maxtablewidth=\dimen124
+\savetabskip=\dimen125
+\tempcounter=\count135
+\colheadcount=\count136
+\rotatetablebox=\box50
+\colorcount=\count137
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count138
+\output=\toks21
+\linenoprevgraf=\count139
+\linenumbersep=\dimen126
+\linenumberwidth=\dimen127
+\c@linenumber=\count140
+\c@pagewiselinenumber=\count141
+\c@LN@truepage=\count142
+\c@internallinenumber=\count143
+\c@internallinenumbers=\count144
+\quotelinenumbersep=\dimen128
+\bframerule=\dimen129
+\bframesep=\dimen130
+\bframebox=\box51
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\refchangenumber=\count145
+\listchangenum=\count146
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box52
+\UL@hyphenbox=\box53
+\UL@skip=\skip62
+\UL@hook=\toks22
+\UL@height=\dimen131
+\UL@pe=\count147
+\UL@pixel=\dimen132
+\ULC@box=\box54
+Package: ulem 2012/05/18
+\ULdepth=\dimen133
+)
+\AuthorCollaborationLimit=\count148
+\largestAffilNum=\count149
+\countauthors=\count150
+\c@affilcount=\count151
+) (./iondefs.sty) (/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/matht
+ools.sty
+Package: mathtools 2015/05/11 v1.16 mathematical typesetting tools
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count152
+\calc@Bcount=\count153
+\calc@Adimen=\dimen134
+\calc@Bdimen=\dimen135
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count154
+\calc@Cskip=\skip65
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip66
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks23
+\ex@=\dimen136
+)
+LaTeX Info: Redefining \text on input line 39.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen137
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count155
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count156
+\leftroot@=\count157
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count158
+\DOTSCASE@=\count159
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen138
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count160
+\c@MaxMatrixCols=\count161
+\dotsspace@=\muskip11
+\c@parentequation=\count162
+\dspbrk@lvl=\count163
+\tag@help=\toks24
+\row@=\count164
+\column@=\count165
+\maxfields@=\count166
+\andhelp@=\toks25
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks26
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count167
+\l_MT_multwidth_dim=\dimen145
+\origjot=\skip69
+\l_MT_shortvdotswithinadjustabove_dim=\dimen146
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen147
+\l_MT_above_intertext_sep=\dimen148
+\l_MT_below_intertext_sep=\dimen149
+\l_MT_above_shortintertext_sep=\dimen150
+\l_MT_below_shortintertext_sep=\dimen151
+)
+Class revtex4-1 Info: Unrecognized array package. Please update this document c
+lass! (Proceeding with fingers crossed.) on input line 13.
+Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with
+ fingers crossed) on input line 13.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 13.
+
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 13.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 13.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 13.
+
+(./CIV_Paper_v2.aux
+
+LaTeX Warning: Label `sec:sample' multiply defined.
+
+)
+\openout1 = `CIV_Paper_v2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count168
+\scratchdimen=\dimen152
+\scratchbox=\box57
+\nofMPsegments=\count169
+\nofMParguments=\count170
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count171
+\MPscratchDim=\dimen153
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
+\everyMPtoPDFconversion=\toks29
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring ON on input line 13.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count174
+)
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
+Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input 
+line 13.
+Class revtex4-1 Info: Reinvoke \linenumbers on input line 13.
+\openout3 = `CIV_Paper_v2Notes.bib'.
+
+Class revtex4-1 Info: Overriding \@LN@LLerror on input line 13.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 24.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+Overfull \hbox (11.76059pt too wide) in paragraph at lines 71--72
+\OT1/cmr/m/n/10 sight-lines, ob-served with the VLT/UVES and Keck/HIRES
+ []
+
+
+Overfull \hbox (54.44858pt too wide) in paragraph at lines 81--81
+[][]| [] [][]\OT1/cmr/m/n/8 http://www.eso.org/observing/dfo/quality/UVES/pipel
+ine/pipe[]reduc.html| 
+ []
+
+[3] [4]
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/all_CIV_params.pdf, id=119, 722.7pt x 505.
+89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/all_CIV_params.pdf Graphic file (type
+ pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/all_CIV_params.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/all_CIV_params.pdf
+ used on input line 118.
+(pdftex.def)             Requested size: 545.19116pt x 381.63197pt.
+
+Overfull \hbox (32.07373pt too wide) in paragraph at lines 118--119
+ [] 
+ []
+
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/gwz_CIV_lin.pdf, id=121, 722.7pt x 505.89p
+t>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/gwz_CIV_lin.pdf Graphic file (type pd
+f)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/gwz_CIV_lin.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/gwz_CIV_lin.pdf us
+ed on input line 131.
+(pdftex.def)             Requested size: 257.41002pt x 180.18272pt.
+
+Overfull \hbox (15.1435pt too wide) in paragraph at lines 131--132
+ [] 
+ []
+
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz.pdf, id=125, 722.7pt x 505
+.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz.pdf Graphic file (typ
+e pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz.pd
+f used on input line 157.
+(pdftex.def)             Requested size: 261.52946pt x 183.06972pt.
+
+Overfull \hbox (19.26294pt too wide) in paragraph at lines 157--158
+ [] 
+ []
+
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx.pdf, id=126, 722.7pt x 505
+.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx.pdf Graphic file (typ
+e pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx.pd
+f used on input line 164.
+(pdftex.def)             Requested size: 257.41002pt x 180.18272pt.
+
+Overfull \hbox (15.1435pt too wide) in paragraph at lines 164--165
+ [] 
+ []
+
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_nsigma_CIV_dndx.pdf, id=130, 722.7pt 
+x 505.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_nsigma_CIV_dndx.pdf Graphic file
+ (type pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_nsigma_CIV_dndx.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_nsigma_CIV_dn
+dx.pdf used on input line 173.
+(pdftex.def)             Requested size: 261.52946pt x 183.06972pt.
+
+Overfull \hbox (19.26294pt too wide) in paragraph at lines 173--174
+ [] 
+ []
+
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_epsilon_CIV_dndx.pdf, id=131, 722.7pt
+ x 505.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_epsilon_CIV_dndx.pdf Graphic fil
+e (type pdf)
+
+<use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_epsilon_CIV_dndx.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_epsilon_CIV_d
+ndx.pdf used on input line 180.
+(pdftex.def)             Requested size: 261.52946pt x 183.06972pt.
+
+Overfull \hbox (19.26294pt too wide) in paragraph at lines 180--181
+ [] 
+ []
+
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndz.pdf, id=133, 722.7pt x 50
+5.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndz.pdf Graphic file (ty
+pe pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndz.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndz.p
+df used on input line 194.
+(pdftex.def)             Requested size: 436.15294pt x 305.30403pt.
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndx.pdf, id=134, 722.7pt x 50
+5.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndx.pdf Graphic file (ty
+pe pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndx.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndx.p
+df used on input line 200.
+(pdftex.def)             Requested size: 436.15294pt x 305.30403pt.
+ [5]
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndz.pdf, id=154, 722.7pt x 
+505.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndz.pdf Graphic file (
+type pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndz.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndz
+.pdf used on input line 213.
+(pdftex.def)             Requested size: 436.15294pt x 305.30403pt.
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndx.pdf, id=155, 722.7pt x 
+505.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndx.pdf Graphic file (
+type pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndx.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndx
+.pdf used on input line 219.
+(pdftex.def)             Requested size: 436.15294pt x 305.30403pt.
+
+</Users/Nigel/PROJECTS/VULTURE/FIT_PARAMS/Omega_CIV.pdf, id=157, 462.52798pt x 
+346.89601pt>
+File: /Users/Nigel/PROJECTS/VULTURE/FIT_PARAMS/Omega_CIV.pdf Graphic file (type
+ pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/FIT_PARAMS/Omega_CIV.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/FIT_PARAMS/Omega_CIV.pdf
+ used on input line 238.
+(pdftex.def)             Requested size: 436.15294pt x 327.13034pt.
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_strongz.pdf, id=160, 722.7pt x
+ 505.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_strongz.pdf Graphic file 
+(type pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_strongz.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_strong
+z.pdf used on input line 251.
+(pdftex.def)             Requested size: 255.14905pt x 178.60027pt.
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/cdf_fw_CIV.pdf, id=161, 722.7pt x 505.89pt
+>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/cdf_fw_CIV.pdf Graphic file (type pdf
+)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/cdf_fw_CIV.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/cdf_fw_CIV.pdf use
+d on input line 251.
+(pdftex.def)             Requested size: 255.14905pt x 178.60027pt.
+
+
+Package natbib Warning: Citation `Prochter2006' on page 6 undefined on input li
+ne 256.
+
+
+Package natbib Warning: Citation `Lundgren2009' on page 6 undefined on input li
+ne 256.
+
+
+Package natbib Warning: Citation `Quider2011' on page 6 undefined on input line
+ 256.
+
+
+Package natbib Warning: Citation `Seyffert2013' on page 6 undefined on input li
+ne 256.
+
+
+Package natbib Warning: Citation `Raghunathan2016' on page 6 undefined on input
+ line 256.
+
+[6 </Users/Nigel/PROJECTS/VULTURE/PLOTS/all_CIV_params.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 257.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 257.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[7 </Users/Nigel/PROJECTS/VULTURE/PLOTS/gwz_CIV_lin.pdf> </Users/Nigel/PROJECTS
+/VULTURE/PLOTS/hist_z_CIV_dndz.pdf
+
+pdfTeX warning: pdflatex (file /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_d
+ndz.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> </Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx.pdf
+
+pdfTeX warning: pdflatex (file /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_d
+ndx.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> </Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_nsigma_CIV_dndx.pdf
+
+pdfTeX warning: pdflatex (file /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_nsigma_
+CIV_dndx.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 263.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 263.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[8 </Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_epsilon_CIV_dndx.pdf>] [9 </Users/
+Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndz.pdf>]
+
+LaTeX Warning: Reference `fig:weaks' on page 10 undefined on input line 296.
+
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz_between.pdf, id=431, 722.7
+pt x 505.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz_between.pdf Graphic f
+ile (type pdf)
+
+<use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz_between.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz_be
+tween.pdf used on input line 300.
+(pdftex.def)             Requested size: 231.669pt x 162.16599pt.
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx_between.pdf, id=432, 722.7
+pt x 505.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx_between.pdf Graphic f
+ile (type pdf)
+
+<use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx_between.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx_be
+tween.pdf used on input line 300.
+(pdftex.def)             Requested size: 231.669pt x 162.16599pt.
+
+</Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_totalx.pdf, id=434, 722.7pt x 
+505.89pt>
+File: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_totalx.pdf Graphic file (
+type pdf)
+ <use /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_totalx.pdf>
+Package pdftex.def Info: /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_totalx
+.pdf used on input line 312.
+(pdftex.def)             Requested size: 247.11299pt x 172.98065pt.
+
+Overfull \hbox (4.84647pt too wide) in paragraph at lines 312--313
+ [] 
+ []
+
+
+LaTeX Warning: Reference `eqn:schechter' on page 10 undefined on input line 313
+.
+
+
+LaTeX Warning: Reference `eqn:schechter' on page 10 undefined on input line 313
+.
+
+
+Package natbib Warning: Citation `Dodorico2010' on page 10 undefined on input l
+ine 319.
+
+
+Package natbib Warning: Citation `Songaila2001' on page 10 undefined on input l
+ine 319.
+
+[10 </Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndx.pdf>]
+Overfull \hbox (21.95888pt too wide) in paragraph at lines 336--337
+[]\OT1/cmr/m/n/10 Using archival data from $\OML/cmm/m/it/10 VLT$\OT1/cmr/m/n/1
+0 /UVES and $\OML/cmm/m/it/10 KECK$\OT1/cmr/m/n/10 /HIRES,
+ []
+
+(./CIV_Paper_v2.bbl [11 </Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndz
+.pdf>] [12 </Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndx.pdf>])
+[13 </Users/Nigel/PROJECTS/VULTURE/FIT_PARAMS/Omega_CIV.pdf>]
+
+Package natbib Warning: There were undefined citations.
+
+[14 </Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_strongz.pdf> </Users/Nigel
+/PROJECTS/VULTURE/PLOTS/cdf_fw_CIV.pdf
+
+pdfTeX warning: pdflatex (file /Users/Nigel/PROJECTS/VULTURE/PLOTS/cdf_fw_CIV.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+> </Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz_between.pdf
+
+pdfTeX warning: pdflatex (file /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_d
+ndz_between.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> </Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx_between.pdf
+
+pdfTeX warning: pdflatex (file /Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_d
+ndx_between.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>] [15 </Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_totalx.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+
+(./CIV_Paper_v2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 349.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10199 strings out of 493089
+ 144516 string characters out of 6134842
+ 301811 words of memory out of 5000000
+ 13453 multiletter control sequences out of 15000+600000
+ 14869 words of font info for 59 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,7n,37p,1819b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb>
+Output written on CIV_Paper_v2.pdf (15 pages, 1092824 bytes).
+PDF statistics:
+ 781 PDF objects out of 1000 (max. 8388607)
+ 696 compressed objects within 7 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+

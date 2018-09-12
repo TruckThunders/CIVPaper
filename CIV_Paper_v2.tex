@@ -1,0 +1,348 @@
+\documentclass[linenumbers,twocolumn]{aastex61}
+%\usepackage[iop]{emulateapj}
+
+\shorttitle{\sc The Vulture Survey II}
+\shortauthors{\sc Mathes et~al.}
+
+%\setlength{\topmargin}{0.5in}
+
+\usepackage{iondefs}
+\usepackage{mathtools}
+\newcommand{\angstrom}{\textup{\AA}}
+
+\begin{document}
+
+\title{The Vulture Survey II: Analyzing the Evolution of CIV Absorbers}
+
+\author{Nigel L. Mathes, Christopher W. Churchill}
+\affil{New Mexico State University, Las Cruces, NM 88003}
+
+\author{Michael T. Murphy}
+\affil{Centre for Astrophysics and Supercomputing, Swinburne University of Technology, Victoria 3122, Australia}
+
+\begin{abstract}
+We present the second part of The Vulture Survey with the goal of measuring the evolutionary properties of {\CIV} absorbers from $1 < z < 5$. We measure the equivalent widths and apparent optical depth column densities of 3526 individual systems in the spectra of 700 individual quasar lines of sight to derive the number of absorbers per comoving path length, the equivalent width and column density frequency distributions, and the cosmic mass fraction in {\CIV}. We compare to prior surveys and to trends in the evolution of galaxies, the cosmic ultraviolet background, and cosmic metallicity. We also probe a previously unsurveyed population of weak {\CIV} absorbers, showing that these systems evolve passively with redshift, not partaking in the cycle of baryons into and out of galaxy halos.
+
+\end{abstract}
+
+\keywords{galaxies: halos --- quasars: absorption lines}
+
+%============== INTRODUCTION =============================
+
+\section{Introduction}
+\label{sec:intro}
+
+One of the most elusive yet important goals in extragalactic research aims to discover how galaxies form, grow, and evolve in an effort to truly understand our place in the universe. The creation of a galaxy begins with a cosmic overdensity, where matter congregates to begin the process of building complex structures of stars, gas, and dust. Feedback from star formation and AGN, along with mergers, shape the galaxy and its surroundings into complex environments. The stage of most uncertainty throughout this process involves feedback, the injection of energy into the gaseous medium within and outside of galaxies which, as has been shown in simulations, is required to produce realistic looking galaxies.
+
+The details of this complex process should be observable in the relationship between the stars in the galaxy and the gas phase material located between the stars within the galaxy (interstellar medium; ISM), just outside the galaxy (circumgalactic medium; CGM), and between galaxies themselves (intergalactic medium; IGM). Unfortunately, detailed observations of this gas are difficult as it remains mostly neutral (CITATION), and therefore does not strongly emit. Therefore, massive efforts have been undertaken to observe this gas in absorption using the most advanced telescopes.
+
+${\CIV}$ absorption lines are some of the better tracers of metal enriched gas around galaxies across cosmic time due to their existence in a wide range of astrophysical conditions, and their ease of observation with optical, ground-based telescopes. Specifically, the {\CIVdblt} doublet traces gas around galaxies with ionization parameters from $SOMETHING < \log U < SOMETHING ELSE$, and from redshifts $1 < z < 5$ in optical spectra. These absorbers have high oscillator strengths and trace an abundant metal, allowing for detections even in low metallicity gas with sufficiently high signal-to-noise spectra, making them ideal for inventorying a large portion of the CGM and IGM.
+
+The first study to characterize the distribution of intervening CIV absorbers was~/cite{Young1982}, which determined that these lines were randomly distributed in redshift in a manner consistent with absorption from intervening galaxies. /cite{Sargent1988} also showed that the number density of systems per unit redshift decreases with increasing redshift from $1.8 /le z_{em} /le 3.56$. /cite{Steidel1990}, examining strong CIV absorbers at redshifts between $1.3 /le z_{abs} /le 4.0$, found also that the number of CIV absorption systems per unit redshift range decreases with increasing redshift, in a manner inconsistent with a constant comoving density of absorbers. Therefore, they stated, the properties of CIV absorbers must evolve over time.
+
+In terms of kinematics,~/cite{Steidel1990} noted that the peak in the CIV two-point correlation function on velocity scales $200 /le \Delta v /le 600~{\kms}$ appears to have the same power at low and high redshift. ~/cite{Rauch1996} examined the velocity structure of intervening CIV absorbers in the spectra of 3 intermediate redshift quasars and detrmined that gas temperatures were likely near $3.8 /times 10^4~/mathrm{k}$, and the TPCF of CIV systems suggests that there is more than one source of velocity dispersion. They interpret the shape of the resulting TPCF as owing to ensembles of objects with the kinematics of dwarf galaxies on a small scale, while following the Hubble flow on a larger scale. % Reword, as some of these statements are word for word out of the papers they came from.
+
+\cite{Churchill1999} examined data from the Hubble Space Telescope Faint Object Spectrograph for {\CIV} absorbers associated with known {\MgII} absorbers measured in high resolution Keck/HIRES data. They noticed a strong correlation between {\MgII} kinematics and {\CIV} equivalent width. They interpreted that this correlation could imply a connection between outflowing {\MgII} clouds and higher ionization state halo gas.
+
+\cite{Rauch2001} measured the kinematics and column density differences of {\CIV} absorption systems along the lines of sight to three gravitationally lensed quasars. They found the spatial distribution of the gas to be mostly featureless with detectable velocity shear up to $\sim70~\mathrm{kms}$. They found the clouds quiescent, in that the energy transmitted to the gas as measured by the amount of turbulence derived along the line of sight, and therefore determined that the absorbing structures are not internal to galaxies. They posited that {\CIV} absorbers could be gas expelled recently or pre-enriched from earlier star formation.
+
+\cite{Chen2001} examined 14 galaxy absorber pairs, along with 36 galaxies without associated {\CIV} absorption lines. They found that {\CIV} absorption line systems cluster strongly on velocity scales of $v \lesssim 250~\mathrm{\kms}$ and impact parameter scales of $\rho \lesssim 100~h^{-1}~\mathrm{kpc}$. In addition, they note that galaxies of all morphological types and luminosities can possess extended gaseous envelopes, with covering factors near unity, at impact parameters less than $100~\mathrm{kpc}$. They concluded that accreting satellites are the most likely sources of this metal enriched halo gas.
+
+\cite{Simcoe2004} directly measured the metallicity distribution function for the $z \sim 2.5$ intergalactic medium in the spectra of seven quasars. They found no evidence for a universal metallicity floor, as had been suggested for some scenarios of Population III enrichment in the early universe. In addition, they found no trends in metallicity as a function of IGM density.
+
+\cite{Fox2007} studied 63 damped Lyman-$\alpha$ (DLA) systems and 11 sub-DLAs with associated {\CIV} absorption. They detected {\CIV} clouds moving at velocites in excess of the escape speed, determined by measuring the total line width of the neutral gas profile, in roughly 40\% of their systems. They inferred that these clouds may arise in high ionized outflowing winds, powered by galaxies with star formation rates (SFR) of $\sim 2~M_{\odot}~\mathrm{yr^{-1}}$.
+
+\cite{Shull2014} used {\it HST}/COS spectra of background quasars to measure elemental abundances in the low redshift intergalactic medium. They found that {\CIV} has increased in abundance by a factor of 10 from $z \sim 5$ to present.
+
+\cite{Bordoloi2014} measured {\CIV} absorption in the COS-Dwarfs survey, probing the gaseous halos near 43 low-mass galaxies at $z \ge 0.1$. They detected {\CIV} out to $\sim 100~\mathrm{kpc}$, roughly $0.5 R_{vir}$, from the host galaxies. They also reported a tentative correlation between {\CIV} equivalent width and SFR, and concluded that energy-driven star formation winds must expel into the CGM a comparable mass to that of the carbon found in the stars of these galaxies.
+
+We begin by explaining the methods of acquiring and analyzing the quasar spectra in section~\ref{sec:data}. Next, in section~\ref{sec:results}, we present the results showing the evolution of the {\CIV} equivalent width distribution, $dN\,/dX$, and the {\CIV} column density distribution across redshift. In section~\ref{sec:discussion} we analyze the funcitonal fit to the column density distribution and derive the relative matter density contributed to the universe by {\CIV}, $\Omega_{\CIV}$. We also compare {\CIV} to {\MgII} in hopes of uncovering any global trends with metals in galaxy halos across redshifts spanning $0.1 < z < 5$. In Section~\ref{sec:conclusions} we summarize our results and look to future studies using this rich data set, including a companion analysis of intervening {\CIV} absorbers and detailed kinematic analysis of intervening absorbing systems. For all calculations, we adopt the most recently published Planck cosmology, with $H_0 = 67.74~\mathrm{km s^{-1} Mpc}$, $\Omega_M = 0.258$, and $\Omega_{\Lambda} = 0.742$.
+
+%============== SAMPLE DESCRIPTION, DATA, ANALYSIS =======================
+
+% Section 2
+\section{Data and Analysis}
+\label{sec:data}
+
+% Section 2.1
+\subsection{Quasar Spectra Sample}
+\label{sec:sample}
+
+We have assembled a sample of 860 archival quasar spectra, representing 700 unique sightlines, observed with the VLT/UVES and Keck/HIRES spectrographs. The data originate from three archival data mining efforts - the UVES SQUAD collaboration (432 spectra) led by Michael Murphy, the KODIAQ Survey (170 spectra) led by John O'Meara \citep{OMeara2015}, and the work of~\cite{EvansThesis} which uses observations both from VLT/UVES and Keck/HIRES. The spectra range in signal-to-noise ratio $(S\,/N)$ from $4$ to $288$ per $1.3 - 2.5~\mathrm{\kms}$ pixel, with the pixel size dependent upon the resolution of the spectrum. The mean $S\,/N$ for the sample is $38$ per pixel. Quasar emission redshifts span $0.014 < z < 5.292$. Wavelength coverage for each spectrum varies based upon the settings used for each spectrograph. VLT/UVES has 3 CCD chips available, offering large wavelength coverage from $\sim 3000$ to $\sim10\,000$~{\AA}. However, wavelength coverage available for each quasar spectum varies based upon the selected cross-disperser settings. The exposures used from Keck/HIRES KODIAQ sample were taken from 2004 to present, when a 3 chip CCD mosiac was installed, also allowing wavelength coverage from  $\sim 3000$ to $\sim10\,000$~{\AA}. Again, though, individual quasar observations vary in wavelength coverage based upon cross-disperser angle. The data from~\cite{EvansThesis} include SOMETHING FROM VLT and older Keck/HIRES observations, prior to the installation of the 3 chip mosiac, and reduced according to the prescriptions found in {\bf CITE SOMETHING OF CHRIS'S HERE}. We detect {\bf MANY} ${\CIV}$ absorbing systems from {\bf redshift range} to a detection limit of $W_r^{\lambda1548} \simeq 0.01$~{\AA} for regions with $S\,/N > 40$ per pixel.
+
+% ============== Continuum Fitting and Line Detection ======================================
+
+% Section 2.2
+\subsection{Data Reduction and Line Detection}
+\label{sec:detection}
+
+The KODIAQ data sample is reduced and fully continuum fit, delivered as normalized spectra according to the prescriptions of \cite{OMeara2015}. To summarize, observing runs are grouped together and uniformly reduced using HIRedux\footnote{http://www.ucolick.org/~xavier/HIRedux/} as part of the XIDL\footnote{http://www.ucolick.org/~xavier/IDL/index.html} suite of astronomical routines in IDL. Continuum fits are applied one order at a time using Legendre polynomials by a single member of the KODIAQ team, John O'Meara, to minimize bias and variation.
+
+The UVES SQUAD sample also comes reduced and continuum fit according to the prescriptions of~\cite{King2012,Bagdonaite2014,Murphy2016,Murphyprep}. Reduction was carried out using the ESO Common Pipeline Language data-reduction software.\footnote{http://www.eso.org/observing/dfo/quality/UVES/pipeline/pipe\_reduc.html} The continuum is fit automatically with a low order polynomial in small sections using UVES\_popler, an ESO/VLT UVES post-pipeline echelle reduction program written by Michael T. Murphy~\citep{MurphyPOPLER}. This fit can incorrectly estimate the continuum around narrow emission regions and broad absorption features. Using UVES\_popler, we add a higher order continuum fit to such regions of each spectrum, always preserving the continuity of the continuum with non-absorbing regions.
+
+The~\cite{EvansThesis} sample combines data from both VLT/UVES and Keck/HIRES observations. As it is used in this paper, it also comes reduced and continuum fit according to the methods found in {\bf DO I JUST CITE THE PHD HERE AGAIN?}.
+
+The next step involves detecting all ${\CIV}$ absorption features. We first limit the search range to regions of the spectrum redward of the {\Lya} emission, as {\Lya} forest contamination would render automatic detection of weaker metal lines nearly impossible. We also do not search $5000$~{\kms} blueward of the quasar emission redshift in order to avoid absorbers associated with the quasar itself. Finally, we exclude regions of strong telluric absorption bands, specifically from $6277 - 6318$~{\AA}, $6868 - 6932$~{\AA}, $7594 - 7700$~{\AA}, and $9300 - 9630$~{\AA}, because we found that the molecular line separations and ratios can lead to numerous false positives when searching for ${\CIV}$ doublets.
+
+To find all intervening {\CIVdblt} absorbers, we employ a techinque outlined in \cite{Zhu2013}, in which we perform a matched filter search for absorption candidates detected above a certain S\,/N threshold. The filter is a top hat function centered at the wavelength of the desired redshifted absorption line. Its width is selected to match the resolution of the spectrum, which is a function of the slit width used during the exposure. A large variety of slit-widths were used to achieve different resolutions for varying science drivers, but, characteristically for a 1.0 arcsec slit, $R \sim 40,000$ for VLT/UVES and $R \sim 45,000$ for Keck/HIRES. We convolve the filter with the normalized spectrum to generate a normalized power spectrum in redshift space, with absorption features having positive power.
+
+The error spectrum in both instruments is complex, irregular, and has frequent single-pixel spikes which makes uniform normalization impossible. Therefore, we cannot convolve the filter with the error spectrum to derive normalized noise estimates, as is often done in matched filter analysis. Instead, we examine the noise in the derived power spectrum.
+
+To derive the noise, we first divide the power spectrum into smaller chunks which correspond to roughly 3000 pixels in the observed spectrum. We then sigma-clip these chunks to remove absorption features, leaving only the continuum power spectrum. Next, we calculate the standard deviation of this continuum. Finally, we use the standard deviation as the noise to calculate the $S\,/N$ of the absorption features in the power spectrum as the ratio of the normalized power ($S$) to the normalized noise ($N$).
+
+A flagged absorption feature has $S\,/N > 5$. A confirmed doublet detetection for {\CIVdblt} requires detection of $S\,/N^{\lambda1548} > 5$ and $S\,/N^{\lambda1551} > 3$. In addition, our automated routines remove detections with non-physical doublet ratios in unsaturated regions; specifically, we exclude cases where $W_r^{\lambda1551} > W_r^{\lambda1548}$, or $W_r^{\lambda1551} < \left(0.3 \times W_r^{\lambda1548}\right)$. The latter constraint is conservative for unsaturated ${\CIV}$ absorbers, as $W_r^{\lambda1551}$ is rarely observed less than $0.5 \times W_r^{\lambda1548}$. We relax this constraint in saturated features. This system could potentially exclude detections where either the ${\CIV1548}$ or ${\CIV1551}$ line is blended with another transition but does not saturate; however, confirmation of these cases requires extra verification from separate absorbing features, such as ${\SiIV}$, which are weaker and not always covered in the spectrum.
+
+All absorption features are visually verified upon completion of the detection algorithm. Multiple feature detections within $\pm 500$~{\kms} of each other are grouped together to generate absorption systems, designated as a single absorber, to be analyzed. Once absorption systems are identified, we calculate the optical depth-weighted median absorption redshift to define the center of the entire absorption system. The formal derivation of this redshift is described in the appendix of~\cite{Churchill2001}.
+
+We also derive an equivalent width detection limit across the spectrum. To do so, we insert modeled Gaussian absorption features across the spectrum and assume a full-width at half maximum (FWHM) defined by the resolution of the instrument to represent unresolved lines. We then solve for the height of the Gaussian, defined as the value at the curve's peak, required to detect the unresolved line with our matched filtering technique at a $S\,/N = 5$. Finally, we integrate to find the equivalent width, and take that value as the minimum detectable equivalent width at a given wavelength. The detection algorithm is therefore self-monitoring. This full equivalent width detection limit spectrum also allows us to accurately characterize the completeness of our sample, along with the full redshift path length searched.
+
+% ============== Measuring Absorption Properties ======================================
+
+% Section 2.3
+\subsection{Measuring Absorption Properties}
+\label{sec:measuring}
+
+For each absorption system, we automatically define the wavelength bounds of an absorbing region by finding where the flux recovers to within $1\sigma$ of the continuum, with $\sigma$ defined by the error spectrum, for three pixels on either side of the absorption trough. Within these regions we calculate rest-frame equivalent widths ($W_r$), velocity widths ($\Delta v$), optical depth-weighted kinematic spreads ($\omega_v$), and apparent optical depth (AOD) column densities ($\log(N)$). The functional forms of these parameters are detailed in the appendix of~\cite{Churchill2001}, equations$~\mathrm{A3 - A7}$. In the case of saturated lines, where the absorption profile reaches zero flux, the AOD column density calculation represents only a lower limit. In such cases, we adopt the column density value derived from the {\CIV1551} profile.
+
+%============= RESULTS: Basic Absorption Properties =========================
+
+\section{Results}
+\label{sec:results}
+
+% ================ Parameter Distributions ================
+\subsection{Sample Characterization}
+\label{sec:sample}
+
+\begin{figure*}[bth]
+\epsscale{1.25}
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/all_CIV_params.pdf}
+\caption{Correlations between measured absorption properties for survey sample. $\log N$ is the AOD column density, $\omega_v$ is the kinematic spread, $W_r^{1548}$ is the rest frame {\CIV1548} equivalent width, and $z$ is the absorption redshift.}
+\label{fig:scatterplots}
+\end{figure*}
+
+Figure~\ref{fig:scatterplots} shows the relationships between the measured absorption parameters, characterizing the distribution of absorption properties for our survey. We cover a large parameter space, examining all types of observable absorption systems from $SOMETHING < W_r^{\lambda1548} < 5$~{\AA}.
+
+Examining the distributions, one may observe a visual trend that very few high equivalent width {\CIV} absorption line systems exist at high redshift. This trend is real, and will be examined in more detail in Section~\ref{sec:ewdistro}. The data gaps at $z = 3.9$, $z = 3.4$, and $z = 3.1$ represent omitted search regions which overlap with strong telluric absorption bands. With regard to column density, we observe the normal trends of increasing equivalent widths and kinematic spreads with increasing system column density. The distributions asymptote near $\log N \simeq 15.5~\mathrm{cm^{-2}}$ due to saturation effects and the nature of measuring column densities with the AOD method. Finally, a characteristic wedge pattern exists in the $W_r^{\lambda 1548}$ vs. $\omega_v$ distribution, with the upper edge limited by the maximum velocity spread measurable for a flat-bottomed absorption profile of a given equivalent width.
+
+\subsection{Sample Completeness and Survey Path Coverage}
+
+\begin{figure}[bth]
+\epsscale{1.25}
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/gwz_CIV_lin.pdf}
+\caption{The function $g(W_r^{1548}, z)$ shown as 2D heat map with the colors representing the value of $g(W_r^{1548}, z)$. This is the number of spectra in which an absorption line of a given equivalent width and a given redshift may be detected according to the detection limit of the spectrum. The vertical black bars representing no redshift path length coverage show the omitted wavelength regions of the survey based upon contaminating telluric absorption features.}
+\label{fig:gwz}
+\end{figure}
+
+Figure~\ref{fig:gwz} shows the function $g(W_r^{1548}, z)$. This 2D heat map details the number of spectra in which a {\CIVdblt} doublet could be detected as a function of the equivalent width detection limit and redshift. The vertical stripes with no redshift path coverage represent the omitted telluric absorption regions for our survey. The integral along a given $W_r^{1548}$ slice gives the total redshift path length available for the sample.
+
+% ================ dN\!/dZ + dN/dX ================
+\subsection{dN/dZ and dN/dX}
+\label{dndzdndx}
+
+Previous studies of the statistical properties of {\CIV} absorbers have thoroughly characterized {\CIV} absorbers with equivalent widths above $W_r^{\lambda1548} = 0.3$~{\AA}. This corresponds to the detection limit of the Sloan Digital Sky Survey (SDSS), which catalogs hundreds of thousands of quasar spectra. Unfortunately, the distribution of the low equivalent width regime of {\CIV} absorbers has not been characterized.
+
+We follow the prescriptions of Paper 1, in which we details the calculations of $dN\,/dz$ and $dN\,/dX$, the redshift path density and absorption path density, respectively. These metrics describe the expected number of detected absorbers through a given redshift or absorption path length.
+
+In Figures~\ref{fig:dndz_cuts} and~\ref{fig:dndx_cuts}, we plot $dN\,/dz$ and $dN\,/dX$ as a function of redshift for varying equivalent width cuts. Dotted lines are fit according to the analytical form which allows for redshift evolution in $dN\,/dX$, defined as,
+
+\begin{equation}
+\frac{dN}{d(z,X)} = n\sigma (1 + z)^{\epsilon},
+\label{eqn:dndxfit}
+\end{equation}
+
+where $n$ is the number density of {\CIV} absorbers, $\sigma$ is the absorbing cross-section, and $\epsilon$ is the power dependence of $dN\,/dX$ on redshift.
+
+\begin{figure}[bth]
+\epsscale{1.27}
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz.pdf}
+\caption{$\frac{dN}{dZ}$ as a function of redshift for varying $W_r^{\lambda1548}$ cuts. Colors represent different equivalent width cuts. The black dotted lines are fits to the distribution of the functional form $f(z) = n\sigma (1 + z)^{\epsilon}$, with the best fit $\epsilon$ value labelled.}
+\label{fig:dndz_cuts}
+\end{figure}
+
+\begin{figure}[bth]
+\epsscale{1.25}
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx.pdf}
+\caption{$\frac{dN}{dX}$ as a function of redshift for varying $W_r^{\lambda1548}$ cuts. Colors represent different equivalent width cuts. The black dotted lines are fits to the distribution of the functional form $f(z) = n\sigma (1 + z)^{\epsilon}$, with the best fit $\epsilon$ value labelled. We see increasing values of $\epsilon$ with increasing equivalent width, driven by an enhancement of stronger {\CIV} absorbers around redshift 2 compared to lower redshifts.}
+\label{fig:dndx_cuts}
+\end{figure}
+
+In Figures~\ref{fig:nsigma} and ~\ref{fig:epsilon}, we show the evolution of the Hubble opacity and the evolution parameter as a function of different equivalent width cuts. As we apply larger equivalent width cuts, $n\sigma$ stays relatively flat before rising to a peak at $W_r^{\lambda1548} = 0.7$~{\AA}. This value then drops precipitously, representing a decreasing incidence of very strong {\CIV} absorbers, whether by decreasing number density, absorbing cross-section, or both. In addition, $\epsilon$ becomes more negative with increasing equivalent width cuts up until around $W_r^{\lambda1548} = 0.7$~{\AA}, at which point it rises again for the strongest {\CIV} absorbers. This transition at $W_r^{\lambda1548} = 0.7$~{\AA} occurs not because the overall slope of the distribution necessarily changes, but instead because the distribution takes on a different shape not well described by Equation~\ref{eqn:dndxfit}, where $dN\,/dz$ and $dN\,/dX$ peak around $z = 2$, but decrease towards higher and lower redshifts.
+
+\begin{figure}[bth]
+\epsscale{1.27}
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_nsigma_CIV_dndx.pdf}
+\caption{Absorber space density times cross section, as derived from the funtional fit $dN\,/dX = n\sigma (1 + z)^{\epsilon}$ as a function of cumulative equivalent width cut, where $W_r^{\lambda1548} > x$~{\AA}. As ${\CIV}$ equivalent width increases, either the space density of absorbing cloud structures decreses, the absorbing cross-section decreases, or both parameters decrease.}
+\label{fig:nsigma}
+\end{figure}
+
+\begin{figure}[bth]
+\epsscale{1.27}
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_epsilon_CIV_dndx.pdf}
+\caption{Redshift power dependence of the functional fit $dN\,/dX = n\sigma (1 + z)^{\epsilon}$ as a function of cumulative equivalent width cut, where $W_r^{\lambda1548} > x$~{\AA}. Weak ${\CIV}$ absorbers are more abundant at low redshift, leading to a negative coefficient $\epsilon$. Moderate equivalent width ${\CIV}$ absorbers do not evolve, showing $\epsilon \simeq 0$. Strong ${\CIV}$ absorbers evolve away at low redshift, showing a large positive $\epsilon$ increasing towards $z = 2$.}
+\label{fig:epsilon}
+\end{figure}
+
+% ================ EW's + logN ================
+\subsection{Equivalent Width Frequency Distribution}
+\label{sec:ewdistro}
+
+We calculate the equivalent width frequency distribution by first calculating $dN\,/dz$ and $dN\,/dX$ for each absorber equivalent width, then summing the distribution in equivalent width bins, and then dividing by the bin width. We examine four redshift bins, requiring that the number of absorbers in each redshift range remains constant.
+
+In Figure~\ref{fig:ewdistrodndx}, we plot the equivalent width frequency distribution. We fit this distribution with a Shechter function to parameterize the distribution and to compare the relative differences between varying redshift cuts. We find the low equivalent width slope decreases towards shallower values as redshift increases, implying a decrease in weak {\CIV} absorbers and a relative increase in strong {\CIV} absorbers from low redshift to redshifts near $z = 2$.
+
+\begin{figure*}[bth]
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndz.pdf}
+\caption{The equivalent width distribution of ${\CIV}$ absorbers, defined as the comoving line density ($\frac{dN}{dX}$) in each equivalent width bin divided by the bin width. We fit this distribution with a Schechter function, capturing the self-similar power law behavior of the distribution before the exponential cutoff limiting the size of ${\CIV}$ absorbers.}
+\label{fig:ewdistrodndz}
+\end{figure*}
+
+\begin{figure*}[bth]
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_dndx.pdf}
+\caption{The equivalent width distribution of {\CIV} absorbers, defined as the comoving line density ($\frac{dN}{dX}$) in each equivalent width bin divided by the bin width. We fit this distribution with a Schechter function, capturing the self-similar power law behavior of the distribution before the exponential cutoff limiting the size of {\CIV} absorbers.}
+\label{fig:ewdistrodndx}
+\end{figure*}
+
+\subsection{Column Density Distribution}
+\label{sec:logndistro}
+
+To calculate the column density distribution, we calculate $dN\,/dX$ for each absorber equivalent width, sum the distribution in column density bins, and then divide by the bin width. The result is a characteristic number density of {\CIV} absorbers per absorption path length as a function of their column densities. It should be noted that at high column densities near $\log (N(CIV)) = 15$, the measured column densities are lower limits as the AOD method to measure column densities cannot constrain the true column when the line saturates.
+
+In Figure~\ref{fig:logndistro}, we plot the column density frequency distribution. Again, we fit this distribution with a Schechter function. We find again that the low column density end of the distribution becomes shallower as one goes from low redshift to $z = 2$. Due to saturation effects, the final high column density bin is likely best regarded as a lower limit.
+
+\begin{figure*}[bth]
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndz.pdf}
+\caption{The column density distribution of ${\CIV}$ absorbers, defined as the comoving line density in each column density bin divided by the bin width. We fit this distribution with a Schechter function.}
+\label{fig:logndistrodndz}
+\end{figure*}
+
+\begin{figure*}[bth]
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_logN_CIV_dndx.pdf}
+\caption{The column density distribution of {\CIV} absorbers, defined as the comoving line density in each column density bin divided by the bin width. We fit this distribution with a Schechter function.}
+\label{fig:logndistro}
+\end{figure*}
+
+% ================ Omega_CIV ================
+\subsection{$\Omega_{\CIV}$}
+\label{omegaciv}
+
+We now aim to calculate the matter density of {\CIV} absorbers across cosmic time using the following equation,
+
+\begin{equation}
+\Omega_{CIV} = \frac{H_0\  m_{Mg}}{c\ \rho_{c,0}} \int_{N_{min}}^{N_{max}}\, f (N_{CIV})\, N_{CIV}\, dN_{CIV} ,
+\label{eqn:omega}
+\end{equation}
+
+where $H_0$ is the Hubble constant today, $m_{Mg} = 4.035 \times 10^{-23}~\mathrm{g}$, $c$ is the speed of light, $\rho_{c,0}$ is the critical density at present, $f(N_{CIV})$ is the column density distribution of {CIV} absorbers, and $N_{CIV}$ is the column density. We numerically integrate the Schecter Function fit to $f(N_{CIV})$, multiplied by $N_{CIV}$. The results are shown below in Figure~\ref{fig:omegamgii}.
+
+\begin{figure*}[bth]
+\plotone{/Users/Nigel/PROJECTS/VULTURE/FIT_PARAMS/Omega_CIV.pdf}
+\caption{$\Omega_{\CIV}$ as a function of redshift. The cosmic mass density of {\CIV} stays roughly flat near a value of $1 \times 10^{-9}$, with a potential increase from $z = 0.1$ to $z = 2.5$.}
+\label{fig:omegamgii}
+\end{figure*}
+
+Errors are derived by bootstrap Monte-Carlo, performing the same sample analysis outlined in Sections~\ref{sec:logndistro} and~\ref{omegaciv} on a random sample, selected with replacement, of {\CIV} absorbers.  We take the standard deviation about the mean of this ensemble of random samples as the error in $\Omega_{CIV}$.
+
+% Section 3.7
+\subsection{Assessing Possible Sightline Bias}
+\label{sec:bias}
+
+\begin{figure*}[bth]
+\epsscale{1.17}
+\plottwo{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_strongz.pdf}{/Users/Nigel/PROJECTS/VULTURE/PLOTS/cdf_fw_CIV.pdf}
+\caption{(a) The $W_r^{\lambda1548} \ge 0.3$~{\AA} equivalent width frequency distribution for The Vulture Survey in black compared to the exponential fit of~\cite{Cooksey2013}, shown as the orange dashed line, and an exponential fit to The Vulture Survey data in purple. The exponential fits are of the form shown in Equation~\ref{eqn:exponential}. (b) The cumulative distribution of The Vulture Survey data and two comparative exponential fits. The P(K-S) value shown compares our survey's data to the fit from~\cite{Cooksey2013}. }
+\label{fig:bias}
+\end{figure*}
+
+The archival quasar spectra used to construct The Vulture Survey were observed for a multitude of reasons. In cases where observations were taken to target a previously known absorption line system, these detections could bias our sample when calculating $d\mathcal{N}\!/dz$ and $d\mathcal{N}\!/dX$. Because early studies which discovered ${\CIV}$ absorbers did not have the sensitivity to detect weak, low equivalent width systems, quasar spectra were never selected based upon the presence of weak absorption. However, some spectra were selected based on the presence of strong, $W_r^{\lambda1548} > 0.3$~{\AA} systems. In order to properly quantify any bias, we compare our work to the large, unbiased sample of the Sloan Digital Sky Survey (SDSS). Specifically, we turn to the work of~\cite{Cooksey2013} who inventoried strong ${\CIV}$ absorbers in SDSS quasar spectra. This study employed analysis most similar to our own, identifying absorbers down to $W_r^{\lambda1548} = 0.3$~{\AA}, and produced parametric fits to the equivalent width frequency distribution, allowing for robust comparisons. These authors analyzed the SDSS Early Data Release; however, modern studies have since used larger samples from subsequent SDSS data releases~\citep{Prochter2006,Lundgren2009,Quider2011,Seyffert2013,Zhu2013,Raghunathan2016}. \cite{Zhu2013} specificallty noted that the~\cite{Cooksey2013} sample is entirely consistent with their DR7 study.
+
+In~\cite{Cooksey2013}, the authors constructed the equivalent width frequency distribution for absorbers with $W_r^{\lambda1548} > 0.3$~{\AA} and found the best fit to this distribution was an exponential function of the form,
+
+\begin{equation}
+f(W_r^{\lambda1548}) = k e^{\alpha W_r}
+\label{eqn:exponential}
+\end{equation}
+
+\noindent where $k$ and $\alpha$ are constants. In order to compare to the SDSS data, we limit our sample to absorbers with equivalent widths $W_r^{\lambda1548} > 0.3$~{\AA} and calculate the equivalent width frequency distribution. In Figure~\ref{fig:bias}(a), we show $f(W_r^{\lambda1548})$ for The Vulture Survey and an exponential fit to our data, along with the exponential fit of~\cite{Cooksey2013}. \cite{Cooksey2013} found the best-fit parameters and corresponding $1\sigma$ uncertainties to be $k = 3.49 \pm 0.3$ and $\alpha = -2.62 \pm 0.04$. When we perform the same analysis, fitting Equation~\ref{eqn:exponential} to The Vulture Survey data, we derive $k = 1.39 \pm 0.10$ and $\alpha = 0.74 \pm 0.05$. By eye, there appears a slight excess in the number of ${\CIV}$ absorbers above $W_r^{\lambda1548} > 3$~{\AA}, with the frequency of these absorbers roughly $2\sigma$ higher than the~\cite{Cooksey2013} exponential fit.
+
+In order to statistically determine the bias in our sample, we perform a Kolmogorov--Smirnov (KS) test to quantitatively measure the similarity between our sample of absorbers with $W_r^{\lambda1548} > 0.3$~{\AA} and the SDSS sample of~\cite{Cooksey2013}. We first sample a population of 1331 measured absorber equivalent widths, matching the SDSS sample size, from the exponential fit to the equivalent width ditribution of~\cite{Cooksey2013}, incorporating the reported $1\sigma$ scatter in the fit parameters. This allows us to directly compare to the sample of measured ${\CIV}$ equivalent widths from The Vulture Survey.
+
+In Figure~\ref{fig:bias}(b), we show the cumulative distribution of the strong absorbers in The Vulture Survey in black, along with the exponential fit to our data and the fit of~\cite{Cooksey2013}. We then perform a two-sample KS test, calculating the P-value, which is the probability that the two samples are drawn from different underlying distributions, defined as P(K-S). To avoid issues due to the random resampling of the~\cite{Cooksey2013} distribution, we repeat this exercise one million times as a Monte-Carlo method, generating an ensemble of P(K-S) values. We take the mean P(K-S) value as the true probability that the samples are inconsistent, and the standard deviation about this mean as the $1\sigma$ uncertainty. Our criterion to assert that our sample is consistent with an unbiased sample requires P(K-S)$\, > 0.0027$, which means that it could not be ruled out at the $3\sigma$ level that the two populations are consistent with one another. With P(K-S)$\, = 0.112 \pm 0.049$, and only one instance out of the million Monte-Carlo runs exhibiting a P(K-S) value below 0.0027, we conclude that our sample is consistent with an unbiased sample, even at the $2\sigma$ level, and that the strong absorbers in The Vulture Survey could very well have originated from the same underlying population as the unbiased SDSS quasar spectra sample.
+
+% ================ DISCUSSION ================
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Evolution of CIV Distributions}
+
+\cite{Steidel1990}, \cite{Sargent1988}, and \cite{Misawa2002} all measured the comoving number of {\CIV} absorbers per redshift path length in the spectra of background quasars. Together, they find that, when considering {\CIV} absorbers with equivalent widths greater than $W_r^{1548} > 0.3$~\AA, the number of absorption doublets per unit redshift decreases with increasing redshift for $1.2 < z < 4.5$.
+
+\cite{Songaila2005} used a novel method of identifying pseudoclouds in {\CIVdblt} systems and measuring their individual properties with the pixel optical depth method. She generated the {\CIV} column density distribution, and calculated from it the cosmic mass density of {\CIV} absorbers $(\Omega_{\CIV})$ from $2 < z < 5$. She found a lack of redshift evolution in $(\Omega_{\CIV})$ for absorbers of all column densities, with $(\Omega_{\CIV}) \simeq 5 \times 10^{-8}$ at $z = 2$ and $(\Omega_{\CIV}) \simeq 2 \times 10^{-8}$ at $z = 5$. % NOTE: She finds a slope for the column density distribution of alpha = -1.44.
+
+\cite{Ryan-Weber2006} analyzed a single high equivalent width {\CIV} system at $z_{abs} = 5.7238$, reporting that neither the column density distribution nor its integral evolves significantly from 1 to 4.5 Gyr after the big bang. This high redshift detection imples that either a large fraction if intergalactic metals were in place even at high redshift, or that this high column density system has origins in a highly ionized outflow.
+
+\cite{Cooksey2010} surveyed 49 low redshift quasars with high resolution {\it Hubble Space Telescope} ultraviolet (UV) spectra for $z < 1$ {\CIV} candidates. They were able to measure $dN\,/dX$, finding that it has not significantly evolved since $z = 5$. They also constructed the column density frequency distribution, fitting it with a power law of exponent of $\alpha = -1.50$. Finally, they calculated $\Omega_{\CIV}$, finding a value roughly 3 times higher than at $z \sim 5$, showing that the cosmic mass density of {\CIV} has slowly but steadily increases from $z = 5$ to $z = 0$.
+
+\cite{Simcoe2011} measured the intergalactic {\CIV} mass density at $4.3 < z < 6.3$ using the Magellan Folded-Port Infrared Echellette (FIRE) spectrograph. They confirmed the downturn in $\Omega_{\CIV}$ at $z > 4$. They postulated that, due to the short physical timescaled at these redshifts, this downturn may be driven primarily by ionization conditions. However, they cautioned that low number statistics still pose problems due to the limited number of sightlines to high redshift quasars.
+
+\cite{Cooksey2013} used the Sloan Digital Sky Survey (SDSS) Data-Release 7 (DR7) to survey over 16,000 {\CIV} systems with $1.46 < z < 4.55$ and rest frame equivalent widths ($W_r^{\lambda1548}$) greater than $0.3$~{\AA}. They found that the equivalent width frequency distribution ($f(W_r)$) was well-modeled by an exponential, with little evolution in its shape. In addition, they found $dN\,/dX$ increased smoothly with decreasing redshift from $z = 4.55$ to $z = 1.96$ before plateauing at redshifts below 1.96. Their results suggest a monotonic increase in the amount of {\CIV} enriched gas outside galaxies over the history of the universe.
+
+\cite{Burchett2015} conducted a blind search of 89 quasar sightlines observed with the {\it HST} Cosmic Origins Spectrograph (COS) for low redshift {\CIV} absorption. They identified 42 absorbers with $z < 0.16$. They determined that the number density of {\CIV} abosrbers per comoving path length and cosmic mass density relative to the critical density both increase marginally from $z \sim 1.5$ to present, confirming both extrapolated trends from higher redshifts and predictions from cosmological hydrodynamic simulations.
+
+Together, these studies DO SOMETHING IMPORTANT, and COMPARE IN A SPACIFIC WAY OR MANNER TO MY STUDY.
+
+\subsection{Weak CIV Absorbers}
+\label{weakciv}
+
+The full distribution of weak {\CIV} absorbers across cosmic time has not been accurately characterized for redshift paths available in optical spectra ($1 < z < 5$). In Figure~\ref{fig:weaks} we present $dN\,/dz$ and $dN\,/dX$ for absorbers with $W_r^{\lambda1548} < 0.3$~\AA.
+
+\begin{figure}[bth]
+\epsscale{2.25}
+\plottwo{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndz_between.pdf}{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_z_CIV_dndx_between.pdf}
+\caption{(a) $d\mathcal{N}\!/dz$ as a function of redshift for equivalent widths in the range $0.02 < W_{r}^{\lambda1548} \le 0.3$~{\AA}. (b) $d\mathcal{N}\!/dX$ as a function of redshift for the same population. Error bars represent $1\sigma$ uncertainties.}
+\label{fig:dndzbetween}
+\end{figure}
+
+The evolution of the incidence of weak absorbers over time does not follow a simple functional form. Interpretation of the evolution is best done when considering $d\mathcal{N}\!/dX$, as trends based upon cosmological expansion have been taken into account. Examining Figure~\ref{fig:dndzbetween} (b), we see that at high redshift, the number of {\CIV} absorbers per absorption path is very low. Then, going to lower redshifts, $d\mathcal{N}\!/dX$ increases until it peaks around $z = 3$. Finally, the distribution falls off towards lower redshifts and flattens, following a no-evolution expectation from $z = 2.5$ to $z = 1$.
+
+\subsection{Total Equivalent Width Distribution}
+\label{totaldistro}
+
+\begin{figure}[bth]
+\epsscale{1.2}
+\plotone{/Users/Nigel/PROJECTS/VULTURE/PLOTS/hist_ew_CIV_totalx.pdf}
+\caption{The equivalent width distribution of all detected ${\CIV}$ absorbers, defined as the redshift path density ($d\mathcal{N}\!/dX$) in each equivalent width bin divided by the bin width. The cosmic distribution of absorbing {\CIV} is well fit by a Schechter function, with the parameters detailed in Equation~\ref{eqn:schechter}.}
+\label{fig:totalewdistro}
+\end{figure}
+% Here, review prior author's fits to the equivalent width distribution
+
+In Figure~\ref{fig:totalewdistro}, we perform the same analysis with the total sample of our survey, finding $\alpha = -0.75 \pm 0.07$ and $W^* = 0.77 \pm 0.18$~{\AA}. We also compare to the fits of three other studies, two using high resolution data~\citep{Dodorico2010, Songaila2001}, and one using the SDSS DR7 data set~\citep{Cooksey2013}. PROBLEM: Prior high resolution studies grouped absobing systems within only 50 km/s, and therefore the faint end slope of the equivalent width distribution is biased steeper.
+
+\subsection{Potential Causes for Trends}
+\label{trendcauses}
+
+The most obvious conclusion to be drawn from our {\CIV} survey is that around redshift $z = 2$, something changes in the distribution of {\CIV} absorbers. The number of strong absorbers per unit path length increases, the faint end slope of the equivalent width and column density distributions flattens, the 'knee' of the Shechter fit of the equivalent width and column density distributions pushes outward to higher $W_r^{\lambda1548}$ and $N(\CIV)$, and the cosmic mass density of {\CIV} increases. We can now state that the physical properties driving the global distribution of {\CIV} absorbers changes around $z = 2$. Possible explanations relate to the ionization conditions in the halos of galaxies at this time, the metallicity of gas around galaxies, or the quantity of metals in the circumgalactic medium.
+
+\cite{Haardt2012} represents the most recent and robust estimate of the cosmic ionizing background as a function of redshift, which is the primary ionizing component responsible for the global ionization state of gas in galactic halos. REDSHIFT EVOLUTION OF BACKGROUND RADIATION. DISCUSS HOW THIS DOES NOT PRODUCE TRENDS.
+
+The metallicity of galaxy halos as a whole is not well characterized over time. However, if we assume that the metals in galaxy halos are built up as a result of outflows~\citep{Quiret2016}, and that the metallicty of the halo may scale with the metallicity of the ISM, then it would make no sense to observe larger quantities of {\CIV} in the circumgalactic medium at $z = 2$ compared to HIGHER REDSHIFTS. DISCUSS HOW THIS DOES/DOES NOT SUPPORT THE TRENDS WE OBSERVE.
+
+\cite{Songaila2006} attempted to identify {\CIV} systems associated with galactic outflows. By analzying velocity widths, she found that roughly half of the systems with $\tau(\CIV) > 0.4$ have widths consistent with outflowing winds. She concluded, after accounting for ionization from galaxy-like spectra and AGN, that almost all lower column density systems and roughly half of high column density {\CIV} systems lie in the IGM, while half of the highest column density systems could be the direct result of outflows ionized by their parent galaxies.
+
+% ================ CONCLUSIONS ================
+\section{Conclusions}
+\label{sec:conclusions}
+
+Using archival data from $VLT$/UVES and $KECK$/HIRES, we have undertaken the most complete survey of {\CIV} absorbers in 602 quasar spectra in high resolution ($\sim 7~\mathrm{\kms}$) allowing for the detection of both strong and weak {\CIV} absorbsers. Our survey spans absorption redshifts from $0.18 < z < 2.57$, allowing for characterization of the evolution of the distribution of these absorbers across cosmic time. Using our own detection and analysis software, we are able to accurately characterize the equivalent width detection limit, absorption path length, and survey copmleteness to a level allowing for an accurate determination of $dN\,/dZ$, the equivalent width distribution function, the column density distribution function, and the total cosmic mass density of {\CIV} absorbers. Our main findings are as follows:
+
+\begin{enumerate}
+\item Stuff
+\item Things
+\item more stuff and things
+\end{enumerate}
+
+M.T.M. thanks the Australian Research Council for \textsl{Discovery Project} grant DP130100568 which supported this work. C.W.C. thanks the National Science Foundation for the grant AST-1517816, which partially supported this work.
+
+\bibliographystyle{apj}
+\bibliography{bibliography}
+
+\end{document}
